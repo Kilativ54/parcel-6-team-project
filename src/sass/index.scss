@@ -1,4 +1,9 @@
 @import './common';
+@import './fonts.scss';
+@import './base/base';
+@import './base/reset';
+@import './layout/container';
+@import './layout/section';
 @import './header.scss';
 @import './section-homepage/section-hero.scss';
 @import './section-homepage/about-our-restaurant.scss';
