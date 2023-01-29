@@ -1,3 +1,8 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
 .section-hotel {
 
@@ -18,7 +23,7 @@
 }
 
 .hotel-card__text {
-    font-family: 'Times New Roman';
+    font-family: 'TimesNewRoman';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -28,7 +33,7 @@
 }
 
 .hotel-card__title {
-    font-family: 'Film P3', sans-serif;
+    font-family: 'FilmP3', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -40,7 +45,7 @@
 
 
 .section-title {
-    font-family: 'Times New Roman';
+    font-family: 'TimesNewRoman';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
