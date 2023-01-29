@@ -21,3 +21,21 @@ p {
     text-decoration: none;
     color: inherit;
 }
+
+
+/* Глобальне обнулення відступів та відміна автоматичної стилізації списків та посилань*/ 
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
