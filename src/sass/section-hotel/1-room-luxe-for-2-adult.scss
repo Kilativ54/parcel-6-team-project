@@ -18,6 +18,8 @@
 }
 
 .hotel-card__text {
+    font-family: 'Times New Roman';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
@@ -26,6 +28,8 @@
 }
 
 .hotel-card__title {
+    font-family: 'Film P3', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.075;
@@ -36,6 +40,8 @@
 
 
 .section-title {
+    font-family: 'Times New Roman';
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.167;
@@ -45,6 +51,8 @@
 }
 
 .room-description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -84,7 +92,7 @@
             width: 100%;
             padding: 14px 0;
             text-align: center;
-            font-family: 'Montserrat';
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
