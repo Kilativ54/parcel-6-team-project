@@ -4,13 +4,14 @@
     padding-right: 15px;
     padding-bottom: 32px;
     padding-top: 36px;
+    background: #FFFDEE;
     }
 .contacts__titel{
     color: aqua;
     font-size: 60px;
     margin-top: 0;
     margin-bottom: 12px;
-    font-family: 'Film P3';
+    font-family: 'FilmP3';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -47,8 +48,21 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #C79002;
-
+&:not(:last-child){
+margin-bottom: 16px;
+}
         }
-.contacts__link{
+        .contacts__link{
     text-decoration: none;
+}
+.map{
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}  
+.map__picture{
+    background: inherit;
 }
