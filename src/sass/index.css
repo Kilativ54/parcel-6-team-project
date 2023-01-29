@@ -1,0 +1,6 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import '~node_modules/swiper/swiper-bundle.min.css';
+.contacts__titel {
+  color: aqua;
+  font-size: 600px;
+}/*# sourceMappingURL=index.css.map */
