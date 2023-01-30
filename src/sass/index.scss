@@ -3,10 +3,11 @@
 @import './common.scss';
 @import './base/common-var.scss';
 @import './fonts.scss';
+@import './layout/container';
 @import './component/logo.scss';
 @import './component/navigation.scss';
 @import './component/network.scss';
-@import './layout/container';
+
 @import './layout/section.scss';
 @import './header.scss';
 @import './section-homepage/section-hero.scss';
