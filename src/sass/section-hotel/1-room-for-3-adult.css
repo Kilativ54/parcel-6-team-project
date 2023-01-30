@@ -1,1 +1,31 @@
-/*# sourceMappingURL=1-room-for-3-adult.css.map */
+.section-hotel--forthree {
+  background-color: #F0ECD6;
+}
+
+.hotel-card__text--forthree {
+  text-align: right;
+}
+
+.hotel-card__title--forthree {
+  text-align: right;
+}
+
+.section-title--forthree {
+  text-align: right;
+}
+
+.room-description--forthree {
+  margin-left: 83px;
+}
+
+.room-img--forthree {
+  text-align: left;
+}
+
+.htlswiper-wrapper--forthree {
+  transform: translateX(18%);
+}
+
+.htlswiper-btns--forthree {
+  justify-content: flex-end;
+}/*# sourceMappingURL=1-room-for-3-adult.css.map */

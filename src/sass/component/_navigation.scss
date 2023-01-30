@@ -1,11 +1,18 @@
-.nav__item {
+.nav {
+
+&__link {
+
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #F3C653;
+    color: $accentColor;
 
+}
 
+&__icon {
+    fill: currentColor;
+}
 }

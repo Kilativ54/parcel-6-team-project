@@ -38,14 +38,14 @@ p {
   margin: 0;
 }
 
-/* Клас для обнулення базових властивостей у списках (ul) */
+/* Стилі для обнулення базових властивостей у списках (ul) */
 ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-/* Клас для обнулення базових властивостей у посиланнях */
+/* Стилі для обнулення базових властивостей у посиланнях */
 li {
   text-decoration: none;
   color: inherit;
@@ -53,6 +53,21 @@ li {
 
 .address {
   font-style: normal;
+}
+
+/* Глобальне обнулення відступів та відміна автоматичної стилізації списків та посилань*/
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
 }
 
 @font-face {
@@ -83,6 +98,34 @@ li {
   color: #fff;
 }
 
+.nav__link {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+}
+.nav__icon {
+  fill: currentColor;
+}
+
+.network {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.network__link {
+  color: #F3C653;
+}
+.network__icon {
+  fill: currentColor;
+}
+.network__icon--fb {
+  margin-left: 1px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -106,7 +149,737 @@ li {
   }
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.restaurant-slogon {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #B4B4B4;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  margin: 12px 0;
+  color: #494848;
+}
+
+.restaurant-info-list {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.restaurant-info-list:first-child {
+  color: #7A7A7A;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.restaurant-info-list:last-child {
+  color: #C79002;
+}
+
+.contacts {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 32px;
+  padding-top: 36px;
+}
+
 .contacts__titel {
   color: aqua;
-  font-size: 600px;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #494848;
+}
+
+.contacts__paragraph {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+}
+
+.contacts__list {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-item {
+  display: flex;
+}
+
+.contacts-item__paragraph {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #C79002;
+}
+
+.contacts__link {
+  text-decoration: none;
+}
+
+.restaurant-slogon {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #B4B4B4;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  margin: 12px 0;
+  color: #494848;
+}
+
+.restaurant-info-list {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.restaurant-info-list:first-child {
+  color: #7A7A7A;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.restaurant-info-list:last-child {
+  color: #C79002;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section-hotel {
+  padding: 32px 0;
+  max-width: 414px;
+  width: 100%;
+}
+.section-hotel--fortwo {
+  background-color: #FFFDEE;
+}
+
+.container-hotel {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.hotel-card__text {
+  font-family: "TimesNewRoman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #B4B4B4;
+  margin-bottom: 8px;
+}
+
+.hotel-card__title {
+  font-family: "FilmP3", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+  color: #494848;
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-family: "TimesNewRoman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.room-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+  max-width: 258px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.room-img {
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.room-img__styles {
+  max-width: 244px;
+  width: 100%;
+  height: auto;
+  background: #DADADA;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons__style {
+  background: #000000;
+  border: 2px solid #FFFDEE;
+  border-radius: 25px;
+  max-width: 236px;
+  width: 100%;
+  padding: 14px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+}
+.buttons__style:hover {
+  background-color: #FFFFFF;
+  border-color: #F3C653;
+  color: #F3C653;
+}
+.buttons__style:focus {
+  background-color: #FFFFFF;
+  border-color: #F3C653;
+  color: #F3C653;
+}
+
+.htlswiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 0 0 20px;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-18%);
+}
+
+.htlswiper-btns {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 20px;
+}
+.htlswiper-btns__left {
+  background-color: transparent;
+  padding: 8px 1px 7px;
+  border: none;
+}
+.htlswiper-btns__right {
+  background-color: transparent;
+  padding: 8px 1px 7px;
+  border: none;
+}
+
+.htlswiper-img {
+  background: #DADADA;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  max-width: 194px;
+  width: 100%;
+}
+
+.section-hotel--forthree {
+  background-color: #F0ECD6;
+}
+
+.hotel-card__text--forthree {
+  text-align: right;
+}
+
+.hotel-card__title--forthree {
+  text-align: right;
+}
+
+.section-title--forthree {
+  text-align: right;
+}
+
+.room-description--forthree {
+  margin-left: 83px;
+}
+
+.room-img--forthree {
+  text-align: left;
+}
+
+.htlswiper-wrapper--forthree {
+  transform: translateX(18%);
+}
+
+.htlswiper-btns--forthree {
+  justify-content: flex-end;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+  font-style: normal;
+}
+
+.sectionAmenities {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #fffdee;
+}
+@media screen and (min-width: 1024px) {
+  .sectionAmenities {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sectionAmenities {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+.containerAmenities {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1279px) {
+  .containerAmenities {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containerAmenities {
+    max-width: 414px;
+  }
+}
+
+.titleAmenities {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.descriptionAmenities {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-bottom: 32px;
+}
+.descriptionAmenities__paragraph {
+  margin-bottom: 16px;
+}
+
+.listAmenities__title {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.bookRoomModalWindowOpenBooton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+  padding: 20px 43px;
+  text-transform: uppercase;
+}
+
+.amenitiesBackLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.amenitiesBackLink::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  margin-left: 16px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png");
+}
+
+.popup {
+  visibility: hidden;
+  position: fixed;
+  pointer-events: none;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 48, 61, 0.2);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+}
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.popup.open .popup__content {
+  transform: scale(1);
+  opacity: 1;
+}
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease 0s;
+}
+.popup__content {
+  padding: 60px 15px;
+  overflow-x: hidden;
+  background: #fffdee;
+  box-shadow: 0px 0px 30px rgba(41, 48, 61, 0.15);
+  max-width: 414px;
+  width: 100%;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  transform: scale(0.7);
+}
+@media screen and (min-width: 1024px) {
+  .popup__content {
+    max-width: 712px;
+    padding: 60px 60px;
+  }
+}
+.popup__close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-modal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 16px;
+  }
+}
+
+.form-modal-box {
+  margin-bottom: 20px;
+}
+
+.form-modal__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .form-modal__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+  }
+}
+
+.form-modal__field {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.form-modal__input {
+  width: 100%;
+  padding: 16px 12px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: #808080;
+  border: 1px solid #C79002;
+  border-radius: 2px;
+  background-color: #fffdee;
+}
+@media screen and (min-width: 1024px) {
+  .form-modal__input {
+    width: 288px;
+    padding: 18px 12px;
+    font-size: 24px;
+    line-height: 1.1666666667;
+  }
+}
+
+.form-modal__label {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2142857143;
+  letter-spacing: 0.02em;
+  color: #C79002;
+}
+
+.form-modal__group {
+  margin-bottom: 8px;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .form-modal__group {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.form-modal__wrap::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url(../images/arrow-down.png);
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  pointer-events: none;
+}
+@media screen and (min-width: 1024px) {
+  .form-modal__wrap::before {
+    right: 20px;
+  }
+}
+
+.form-modal__select {
+  padding: 16px 12px;
+  width: 100%;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: #808080;
+  cursor: pointer;
+  border: 1px solid #C79002;
+  border-radius: 2px;
+  background-color: #fffdee;
+}
+@media screen and (min-width: 1024px) {
+  .form-modal__select {
+    width: 288px;
+    padding: 18px 12px;
+    font-size: 24px;
+    line-height: 1.1666666667;
+  }
+}
+
+.form-modal__select:focus {
+  outline: none;
+}
+
+.form-modal__select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  overflow: hidden;
+}
+
+.modal__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 298px;
+  padding: 20px 43px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #F3C653;
+  border-radius: 2px;
+}
+@media screen and (min-width: 1024px) {
+  .modal__button {
+    min-width: 592px;
+    padding: 18px 117px;
+    font-size: 24px;
+    line-height: 1.2083333333;
+  }
+}
+.modal__button:hover, .modal__button:focus {
+  color: #000000;
+  background-color: #F3C653;
+  border: 1px solid #F3C653;
 }/*# sourceMappingURL=index.css.map */

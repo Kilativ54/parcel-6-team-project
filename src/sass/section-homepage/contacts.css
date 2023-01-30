@@ -1,1 +1,59 @@
-# sourceMappingURL=contacts.css.map */
+.contacts {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 32px;
+  padding-top: 36px;
+}
+
+.contacts__titel {
+  color: aqua;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #494848;
+}
+
+.contacts__paragraph {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+}
+
+.contacts__list {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-item {
+  display: flex;
+}
+
+.contacts-item__paragraph {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #C79002;
+}
+
+.contacts__link {
+  text-decoration: none;
+}/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,19 @@
+.network {
+
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+&__link {
+    color: $accentColor;
+    }
+
+&__icon {
+    fill: currentColor;
+
+    &--fb {
+    margin-left: 1px;
+    }
+    }
+}
+
