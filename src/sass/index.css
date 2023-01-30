@@ -6,6 +6,10 @@
 *::after {
   box-sizing: border-box;
 }
+.wrapper {
+  outline: solid red;
+  max-width: 414px;
+}
 
 .img {
   display: block;
@@ -882,4 +886,5 @@ address {
   color: #000000;
   background-color: #F3C653;
   border: 1px solid #F3C653;
-}/*# sourceMappingURL=index.css.map */
+}
+
