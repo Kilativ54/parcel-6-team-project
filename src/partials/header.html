@@ -5,18 +5,27 @@
         </div>
             <div class="nav">
             <ul class="nav__list">
-                <li clas="nav__item" ><a href="/src/restaurant.html" class="nav__link">Ресторан<svg class="nav__icon" width="12" height="20">
-                    <use href="/src/images/icons.svg#icon-phone"></use>
-                </svg></a>
+                <li clas="nav__item" >
+                    <div class="nav__contact">
+                    <a href="/src/restaurant.html" class="nav__link">Ресторан</a>
                     
-            </li>
-                <li clas="nav__item"><a href="/src/hotel.html" class="nav__link">Готель<svg class="nav__icon" width="12" height="20">
+                    <svg class="nav__icon" width="12" height="20">
                     <use href="/src/images/icons.svg#icon-phone"></use>
-                </svg></a>
-                
+                </svg>
+                <a class="nav__tel" href="tel:0955559533"></a>
+            </a>
+            </div>
             </li>
-                <li clas="nav__item"><a href="/src/number.html" class="nav__link">Номер</a></li>
-            </ul>
+                <li clas="nav__item">
+                    <div class="nav__contact">
+                    <a href="/src/hotel.html" class="nav__link">Готель</a>
+                    <svg class="nav__icon nav__icon--last" width="12" height="20">
+                    <use href="/src/images/icons.svg#icon-phone"></use>
+                </svg>
+                    </div>
+            </li>
+                <!-- <li clas="nav__item"><a href="/src/number.html" class="nav__link">Номер</a></li>
+            </ul> -->
             </div>
             <div class="header__network">
             <ul class="network">
@@ -40,17 +49,20 @@
                 </li>   
             </ul>
         </div>
+    </div>
         <div class="header__address>
         <address class="addres">
             <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"
                 class="address__link">
                 <svg class="address__icon" width="20" height="20">
-                    <use href="/src/images/icons.svg#icon-location"></use>
+                    <use href="/src/images/icons.svg#icon-entypo_location-pin"></use>
                 </svg>
-                Україна, м. Полтава,<br>
+                <span class="address__text">
+                Україна, м. Полтава,
+                <br>
                 вул. Маршала Бірюзова, 15
+            </span>
             </a>
         </address>
         </div>
-    </div>
 </header>
