@@ -71,7 +71,12 @@
   margin-right: auto;
   width: 100%;
   height: auto;
-}
+  // background-image: 
+	//   url(/src/images/map.jpg);
+  //   background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: center;
+  }
 .map__picture {
   background: inherit;
 }
@@ -87,6 +92,7 @@
 }
 .contacts__icon {
   display: block;
+  margin-left: 2px;
 }
 .contacts__address {
   font-family: 'Montserrat';
@@ -96,6 +102,7 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #494848;
+  margin-left: 12px;
 }
 .contacts__item-hotel {
   display: flex;
@@ -116,5 +123,16 @@
 
 // }
 .contacts__link.third{
-    padding-left: 8px;
+    padding-right: 8px;
+}
+.contacts-item.address{
+  border: 0.5px solid #f3c653;
+  width: 260px;
+    height: 76px;
+    margin-left: auto;
+}
+.contacts__link.four{
+  margin: 0;
+  display: flex;
+    width: 100%;
 }
