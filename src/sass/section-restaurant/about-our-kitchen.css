@@ -1,1 +1,32 @@
-/*# sourceMappingURL=about-our-kitchen.css.map */
+.restaurant-slogon {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #B4B4B4;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  margin: 12px 0;
+  color: #494848;
+}
+
+.restaurant-info-list {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.restaurant-info-list:first-child {
+  color: #7A7A7A;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.restaurant-info-list:last-child {
+  color: #C79002;
+}/*# sourceMappingURL=about-our-kitchen.css.map */
