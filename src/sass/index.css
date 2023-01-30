@@ -6,6 +6,10 @@
 *::after {
   box-sizing: border-box;
 }
+.wrapper {
+  outline: solid red;
+  max-width: 414px;
+}
 
 .img {
   display: block;
@@ -103,10 +107,4 @@ li {
   .container {
     width: 1280px;
     padding: 0 85px;
-  }
 }
-
-.contacts__titel {
-  color: aqua;
-  font-size: 600px;
-}/*# sourceMappingURL=index.css.map */

@@ -1,1 +1,3 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"details-of-our-hotel.css"}
+{"version":3,"sources":["details-of-our-hotel.scss","details-of-our-hotel.css"],"names":[],"mappings":"AAIA;EACE,mBAAA;EACA,iBAAA;ACHF;ADSA;EACE,qBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,kBAAA;EACA,qBAAA;EACA,iBAAA;EACA,yBAAA;EACA,mBAAA;ACPF;ADQE;EAVF;IAWI,eAAA;ECLF;AACF;ADSA;EACE,mBAAA;EACA,iBAAA;ACPF;;ADSA;EACE,mBAAA;ACNF","file":"details-of-our-hotel.css"}
+
+
