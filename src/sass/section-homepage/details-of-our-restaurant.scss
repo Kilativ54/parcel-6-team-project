@@ -1,0 +1,76 @@
+.details-restaurant {
+background-color: var(--black);
+
+
+    background-repeat: no-repeat;
+    //background-position: 50% 50%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 414px) {
+        min-width: 414px;
+        height: 735px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/details-of-our-restaurant/details-of-our-restaurant-0-m@1x.jpg);
+    }
+
+
+    @media screen and (min-width: 1024px) {
+        min-width: 1024px;
+        height: 620px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/details-of-our-restaurant/details-of-our-restaurant-0-t@1x.jpg);
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 1280px;
+        height: 620px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@1x.jpg);
+    }
+
+
+
+    // .details-restaurant__title
+
+    &__title {}
+
+    // .details-restaurant__restaurant
+
+    &__restaurant {}
+
+    // .details-restaurant__text
+
+    &__text {}
+
+    // .details-restaurant__slider
+
+    &__slider {}
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .details-restaurant {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@2x.jpg);
+        background-size: cover;
+    }
+}
+
+.button {
+
+    // .button__reserve-room
+
+    &__reserve-room {}
+
+    // .button__check-prices
+
+    &__check-prices {}
+}
