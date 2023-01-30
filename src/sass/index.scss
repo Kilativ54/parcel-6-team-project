@@ -3,15 +3,11 @@
 @import './common.scss';
 @import './base/common-var.scss';
 @import './fonts.scss';
-<<<<<<< Updated upstream
-@import './layout/container';
-=======
-@import './base/body.scss';
->>>>>>> Stashed changes
 @import './component/logo.scss';
 @import './component/navigation.scss';
 @import './component/network.scss';
-
+@import './component/address.scss';
+@import './layout/container.scss';
 @import './layout/section.scss';
 @import './header.scss';
 @import './section-homepage/section-hero.scss';

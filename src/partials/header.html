@@ -5,18 +5,27 @@
         </div>
             <div class="nav">
             <ul class="nav__list">
-                <li clas="nav__item" ><a href="/src/restaurant.html" class="nav__link">Ресторан<svg class="nav__icon" width="12" height="20">
-                    <use href="/src/images/icons.svg#icon-phone"></use>
-                </svg></a>
+                <li class="nav__item" >
+                    <div class="nav__contact">
+                    <a href="/src/restaurant.html" class="nav__link">Ресторан</a>
                     
-            </li>
-                <li clas="nav__item"><a href="/src/hotel.html" class="nav__link">Готель<svg class="nav__icon" width="12" height="20">
+                    <svg class="nav__icon" width="12" height="20">
                     <use href="/src/images/icons.svg#icon-phone"></use>
-                </svg></a>
-                
+                </svg>
+                <a class="nav__tel" href="tel:0955559533">
+            </a>
+            </div>
             </li>
-                <li clas="nav__item"><a href="/src/number.html" class="nav__link">Номер</a></li>
-            </ul>
+                <li class="nav__item">
+                    <div class="nav__contact">
+                    <a href="/src/hotel.html" class="nav__link">Готель</a>
+                    <svg class="nav__icon nav__icon--last" width="12" height="20">
+                    <use href="/src/images/icons.svg#icon-phone"></use>
+                </svg>
+                    </div>
+            </li>
+                <!-- <li clas="nav__item"><a href="/src/number.html" class="nav__link">Номер</a></li>-->
+            </ul> 
             </div>
             <div class="header__network">
             <ul class="network">
@@ -25,32 +34,38 @@
                     <svg class="network__icon" width="22" height="22">
                         <use href="/src/images/icons.svg#icon-insta"></use>
                     </svg>
+                </a>
                 </li>
                 <li class="network__item">
                     <a class="network__link" href="#">
                         <svg class="network__icon network__icon--fb" width="20" height="20">
                             <use href="/src/images/icons.svg#icon-fb"></use>
                         </svg>
+                    </a>
                 </li>
                 <li class="network__item">
                     <a class="network__link" href="#">
                         <svg class="network__icon" width="24" height="24">
                             <use href="/src/images/icons.svg#icon-telegram"></use>
                         </svg>
+                    </a>
                 </li>   
             </ul>
         </div>
-        <div class="header__address>
+    </div>
+        <div class="header__address">
         <address class="addres">
             <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"
                 class="address__link">
                 <svg class="address__icon" width="20" height="20">
-                    <use href="/src/images/icons.svg#icon-location"></use>
+                    <use href="/src/images/icons.svg#icon-entypo_location-pin"></use>
                 </svg>
-                Україна, м. Полтава,<br>
+                <span class="address__text">
+                Україна, м. Полтава,
+                <br>
                 вул. Маршала Бірюзова, 15
+            </span>
             </a>
         </address>
         </div>
-    </div>
 </header>

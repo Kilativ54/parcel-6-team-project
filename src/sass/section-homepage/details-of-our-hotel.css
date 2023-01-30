@@ -1,8 +1,20 @@
+.details-hotel {
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 414px;
+  max-height: 735px;
+  background-image: url(/src/images/about-our-hotel/about-hotel__room--m.jpg);
+}
+
 .details-hotel__info {
   margin-right: 140px;
   margin-left: 32px;
 }
 .details-hotel__title {
+  margin: 0;
   font-family: "FilmP3";
   font-style: normal;
   font-weight: 700;
@@ -25,5 +37,4 @@
 
 .details-hotel__text {
   outline: solid cyan;
-}
-
+}/*# sourceMappingURL=details-of-our-hotel.css.map */
