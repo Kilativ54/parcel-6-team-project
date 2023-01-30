@@ -1,0 +1,31 @@
+.swiper {
+    position: relative;
+    max-width: 414px;
+    max-height: 740px;
+    z-index: 1;
+
+@media (min-width: 1024px) {
+    max-height: 718px;
+    max-width: 1024px;
+}
+
+@media (min-width: 1280px) {
+        max-height: 720px;
+        max-width: 1280px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
