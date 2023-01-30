@@ -1,53 +1,62 @@
-<section>
+<section class="sec-contact">
     <h1 hidden>Contacts</h1>
-    <div class="contacts">
-        <div></div>
+    <div class="contacts container">
+        <div>
         <h2 class="contacts__titel">MIMIHO</h2>
         <p class="contacts__paragraph">Ресторанно-готельний
             комплекс</p>
         <address>
             <ul class="contacts__list">
-                    <li class="contacts-item">
+                    <li class="contacts-item changes">
                 <p class="contacts-item__paragraph">Ресторан</p>
-                <a class="contacts__link" href="tel:0955559533"
-                >0955559533</a
+                <a class="contacts__link rest-change" href="tel:0955559533"
+                ><svg class="contacts__icon" width="24" height="24">
+                  <use href="/src/images/icons.svg#icon-fluent_phone-24-regular"></use>
+                </svg><span class="contacts__phone">095 555 95 33</span></a
               >
               </li>
-              <li class="contacts-item">
+              <li class="contacts-item second-changes">
                 <p class="contacts-item__paragraph">Готель</p>
-                <a class="contacts__link" href="tel:0668491089"
-                  >066 849 10 89</a
+                <div class="contacts__item-hotel">
+                <a class="contacts__link second" href="tel:0668491089"
+                  ><svg class="contacts__icon" width="24" height="24">
+                    <use href="/src/images/icons.svg#icon-fluent_phone-24-regular"></use>
+                  </svg><span class="contacts__phone second">066 849 10 89</span></a
                 >
-                <a class="contacts__link" href="tel:0672758540"
-                  >0672758540</a
-                >   
-              </li>
-              <li class="contacts-item"> 
+                <a class="contacts__link third" href="tel:0672758540"
+                  ><span class="contacts__phone third">067 275 85 40</span></a
+                >     
+              </div>        
+              </li>             
+              <li class="contacts-item address"> 
                 <a
-                  class="contacts__link"
+                  class="contacts__link four "
                   href="https://goo.gl/maps/82AECN6XbYSS3Eqz9"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
-                  >Україна, м. Полтава,
-                  вул. Маршала Бірюзова, 15</a
-                >  
-              </li>  
+                  ><svg class="contacts__icon" width="24" height="24">
+                    <use href="/src/images/icons.svg#icon-entypo_location-pin"></use>
+                  </svg><span class="contacts__address">Україна, м. Полтава,<br>
+                  вул. Маршала Бірюзова, 15</span></a
+                >      
+              </li>    
             </ul>
         </address> 
-            <div>
-            <picture>
-                <source srcset="#" media="(min-width:1280px)" />
-                <source  srcset="#" media="(min-width:1024px)" />
-                <source  srcset="#" media="(min-width:414px)" />
+      </div> 
+            <div class="map">
+            <picture class="map__picture">
+                <source srcset="/src/images/map-desctop.jpg" media="(min-width:1280px)" />
+                <source  srcset="/src/images/map-tablet.jpg" media="(min-width:1024px)" />
+                <source  srcset="/src/images/map.jpg" media="(min-width:414px)" />
                <img
-                 srcset="#" 
+                 srcset="/src/images/map.jpg" 
                  class="img"
-                 src="#"
+                 src="/src/images/map.jpg"
                  width="100%"
                  alt="карта"
-      /> 
+      />      
              </picture>
-            </div>
+                </div>       
           
     </div>
 </section>  
