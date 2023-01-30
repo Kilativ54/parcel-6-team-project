@@ -1,0 +1,47 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import '~node_modules/swiper/swiper-bundle.min.css';
+.wrapper {
+  outline: solid red;
+  max-width: 414px;
+}
+@media screen and (min-width: 1124px) {
+  .wrapper {
+    max-width: 1124px;
+    outline: solid yellow;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    outline: solid green;
+    max-width: 1280px;
+  }
+}
+
+.about-hotel {
+  height: 100%;
+  max-height: 1191px;
+}
+
+.about-hotel__title-above {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  text-color: #b4b4b4;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 1124px) {
+  .about-hotel__title-above {
+    font-size: 32px;
+    line-height: 1.15625;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-hotel__title-above {
+    margin-bottom: 4px;
+  }
+}
+
+.contacts__titel {
+  color: aqua;
+  font-size: 600px;
+}/*# sourceMappingURL=index.css.map */
