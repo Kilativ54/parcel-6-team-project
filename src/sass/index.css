@@ -1,47 +1,110 @@
+@charset "UTF-8";
 @import '~node_modules/modern-normalize/modern-normalize.css';
 @import '~node_modules/swiper/swiper-bundle.min.css';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .wrapper {
   outline: solid red;
   max-width: 414px;
 }
-@media screen and (min-width: 1124px) {
-  .wrapper {
-    max-width: 1124px;
-    outline: solid yellow;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .wrapper {
-    outline: solid green;
-    max-width: 1280px;
-  }
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.about-hotel {
-  height: 100%;
-  max-height: 1191px;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
 }
 
-.about-hotel__title-above {
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у списках (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посиланнях */
+li {
+  text-decoration: none;
+  color: inherit;
+}
+
+.address {
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FilmP3";
+  font-size: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/FilmP3Bold.woff2") format("woff2"), url("../fonts/FilmP3Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "TimesNewRoman";
+  font-size: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.15;
-  text-color: #b4b4b4;
-  margin-bottom: 12px;
+  src: local(""), url("../fonts/TimesNewRomanMTStd.woff2") format("woff2"), url("../fonts/TimesNewRomanMTStd.woff") format("woff");
 }
-@media screen and (min-width: 1124px) {
-  .about-hotel__title-above {
-    font-size: 32px;
-    line-height: 1.15625;
-  }
+@font-face {
+  font-family: "TimesNewRoman";
+  font-size: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/TimesNewRomanMTStd-Bold.woff2") format("woff2"), url("../fonts/TimesNewRomanMTStd-Bold.woff") format("woff");
 }
-@media screen and (min-width: 1280px) {
-  .about-hotel__title-above {
-    margin-bottom: 4px;
-  }
+.logo__link {
+  font-family: "FilmP3", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #fff;
 }
 
-.contacts__titel {
-  color: aqua;
-  font-size: 600px;
-}/*# sourceMappingURL=index.css.map */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+@media (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding: 0 47px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 85px;
+}

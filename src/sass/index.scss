@@ -1,4 +1,11 @@
-@import './common';
+@import './base/base.scss';
+@import './base/reset.scss';
+@import './common.scss';
+@import './base/common-var.scss';
+@import './fonts.scss';
+@import './component/logo.scss';
+@import './layout/container.scss';
+@import './layout/section.scss';
 @import './header.scss';
 @import './section-homepage/section-hero.scss';
 @import './section-homepage/about-our-restaurant.scss';
