@@ -6,9 +6,19 @@
     margin: 0 auto;
 }
 
+
 ul {
     margin: 0;
     padding-left: 0px;
+}
+
+.about-restaurant{
+    max-width: 414px;
+    background: #FFFDEE;
+
+    @media (min-width: 1024px){
+        max-width: 1024px;
+    }
 }
 
 .restaurant-slogon{
@@ -16,9 +26,15 @@ ul {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
+    padding-top: 16px;
     
     color: #B4B4B4;
-    margin-top: 16px;
+
+    @media (min-width: 1024px){
+        font-size: 32px;
+        padding-left: 47px;
+        padding-right: 47px;
+    }
 }
 
 .title-name{
@@ -29,6 +45,18 @@ ul {
     letter-spacing: 0.3em;
     margin: 12px 0;
     color: #494848;
+
+    @media (min-width: 1024px){
+        font-size: 64px;
+        margin-top: 4px;
+    }
+}
+
+.restaurant-top-part{
+    @media (min-width: 1024px){
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .restaurant-info-top{
@@ -36,12 +64,23 @@ ul {
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
 
     margin-bottom: 28px;
     width: 258px;
     color: #7A7A7A;
+
+    @media (min-width: 1024px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 439px;
+        font-size: 16px;
+        margin-top: 24px;
+        margin-right: 26px;
+    }
+    
 }
     
 .restaurant-photo-top{
@@ -51,19 +90,30 @@ ul {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     margin-bottom: 32px;
+
+    @media (min-width: 1024px){
+        width: 400px;
+        margin-top: -100px;
+    }
 }
+
 
 .restaurant-bottom-part{
     display: flex;
     align-items: center;
+   // justify-content: center;
 }
+
 .restaurant-photo-bottom{
     display: flex;
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    max-width: 200px;
-   // float: left;
+    
+        @media (min-width: 1024px){
+            width: 350px;
+           
+        }
 }
 
 .restaurant-info-bottom {
@@ -75,4 +125,12 @@ ul {
 
     color: #C79002;
     margin-left: 20px;
+
+    @media (min-width: 1024px){
+        display: flex;
+        font-size: 16px;
+        width: 312;
+        justify-content: center;
+        align-items: center;
+    }
 }
