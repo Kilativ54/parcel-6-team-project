@@ -13,11 +13,28 @@ ul {
 }
 
 .about-restaurant{
-    max-width: 414px;
     background: #FFFDEE;
+}
+
+.restaurant-container{
+    width: 414px;
+    //background: #FFFDEE;
 
     @media (min-width: 1024px){
-        max-width: 1024px;
+        width: 1024px;
+        padding: 0 47px;
+    }
+
+    @media (min-width: 1280px){
+        width: 1280px;
+        padding: 0 85px;
+    }
+}
+
+.restaurant-top-part {
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -31,13 +48,15 @@ ul {
     color: #B4B4B4;
 
     @media (min-width: 1024px){
-        font-size: 32px;
-        padding-left: 47px;
-        padding-right: 47px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 32px; 
+        padding-top: 120px;
     }
 }
 
 .title-name{
+    display: flex;
     font-family: FilmP3;
     font-weight: 700;
     font-size: 40px;
@@ -47,15 +66,12 @@ ul {
     color: #494848;
 
     @media (min-width: 1024px){
+        display: flex;
+        flex-wrap: wrap;
         font-size: 64px;
         margin-top: 4px;
-    }
-}
-
-.restaurant-top-part{
-    @media (min-width: 1024px){
-        display: flex;
-        justify-content: center;
+        margin-bottom: 0px;
+        
     }
 }
 
@@ -74,12 +90,17 @@ ul {
     @media (min-width: 1024px){
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-content: center;
         width: 439px;
+        height: 80px;
         font-size: 16px;
         margin-top: 24px;
         margin-right: 26px;
     }
+
+        @media (min-width: 1280px){
+            margin-right: 37px;
+        }
     
 }
     
@@ -93,7 +114,10 @@ ul {
 
     @media (min-width: 1024px){
         width: 400px;
-        margin-top: -100px;
+        margin-top: -260px;
+    }
+     @media (min-width: 1280px) {
+        width: 460px;
     }
 }
 
@@ -101,7 +125,7 @@ ul {
 .restaurant-bottom-part{
     display: flex;
     align-items: center;
-   // justify-content: center;
+  
 }
 
 .restaurant-photo-bottom{
@@ -111,8 +135,11 @@ ul {
     border-radius: 2px;
     
         @media (min-width: 1024px){
-            width: 350px;
-           
+            width: 350px;   
+        }
+
+        @media (min-width: 1280px){
+            width: 460px;
         }
 }
 
@@ -122,6 +149,7 @@ ul {
     font-size: 12px;
     line-height: 1, 25;
     letter-spacing: 0.02em;
+    width: 163px;
 
     color: #C79002;
     margin-left: 20px;
@@ -129,8 +157,9 @@ ul {
     @media (min-width: 1024px){
         display: flex;
         font-size: 16px;
-        width: 312;
+        width: 312px;
         justify-content: center;
         align-items: center;
+        margin-left: 48px;
     }
 }
