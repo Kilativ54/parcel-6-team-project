@@ -1,1 +1,35 @@
-/*# sourceMappingURL=details-of-our-restaurant.css.map */
+.details-restaurant {
+  background-color: var(--black);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 414px) {
+  .details-restaurant {
+    min-width: 414px;
+    height: 735px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-m@1x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .details-restaurant {
+    min-width: 1024px;
+    height: 620px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-t@1x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-restaurant {
+    max-width: 1280px;
+    height: 620px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@1x.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .details-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@2x.jpg);
+    background-size: cover;
+  }
+}/*# sourceMappingURL=details-of-our-restaurant.css.map */

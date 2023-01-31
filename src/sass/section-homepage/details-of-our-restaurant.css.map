@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"details-of-our-restaurant.css"}
+{"version":3,"sources":["details-of-our-restaurant.scss","details-of-our-restaurant.css"],"names":[],"mappings":"AAAA;EACA,8BAAA;EAGI,4BAAA;EAEA,kBAAA;EACA,cAAA;EACA,uBAAA;EACA,mBAAA;ACFJ;ADII;EAXJ;IAYQ,gBAAA;IACA,aAAA;IACA,0JAAA;ECDN;AACF;ADMI;EApBJ;IAqBQ,iBAAA;IACA,aAAA;IACA,0JAAA;ECHN;AACF;ADOI;EA5BJ;IA6BQ,iBAAA;IACA,aAAA;IACA,yJAAA;ECJN;AACF;AD2BA;EAGI;IACI,yJAAA;IAGA,sBAAA;EC7BN;AACF","file":"details-of-our-restaurant.css"}
