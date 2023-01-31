@@ -3,30 +3,93 @@
     background-color: #F0ECD6;
 }
 
+.section-title--forthree{
+    white-space: nowrap;
+}
+
 .hotel-card__text--forthree {
+    margin-left: auto;
     text-align: right;
 }
 
 .hotel-card__title--forthree {
+    margin-left: auto;
     text-align: right;
 }
 
-.section-title--forthree {
-    text-align:  right;
-}
+.room-card--forthree{
+    margin-left: 82px;
 
-.room-description--forthree {
-    margin-left: 83px;
+    /* table */ 
+    @media screen and (min-width:415px) and (max-width:1025px) {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        max-width: 400px;
+    }
+    /* desktop */ 
+    @media (min-width:1025px) {
+        max-width: 453px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+    }
 }
 
 .room-img--forthree {
-    text-align: left;
+    /* table */
+    @media screen and (min-width:415px) and (max-width:1025px) {
+        position: absolute;
+        top: -32px;
+        left: 11.72%;
+        margin: 0;
+    }
+    /* desktop */
+    @media (min-width:1025px) {
+            position: absolute;
+            top: -33px;
+            left: 14.06%;
+            margin: 0;
+    }
+}
+
+.room-img__styles--forthree{
+    margin-right: auto;
+    margin-left: 0;
 }
 
 .htlswiper-wrapper--forthree {
-    transform: translateX(18%);
+    transform: translateX(120px);
+    /* table/dektop */
+    @media (min-width:415px) {
+        transform: none;
+        justify-content: end;
+    }
 }
 
 .htlswiper-btns--forthree {
-    justify-content: flex-end;
+    margin-left: auto;
+    /* table */
+    @media screen and (min-width:415px) and (max-width:1025px) {
+        margin-right: 333px;
+    }
+    /* desktop */
+    @media (min-width:1025px) {
+        margin-right: 452px;
+    }
+}
+
+.buttons--forthree{
+    /* table */
+    @media screen and (min-width:415px) and (max-width:1025px) {
+            left: 47px;
+            right: 0;
+            margin: 0;
+    }
+    /* desktop */
+    @media (min-width:1025px) {
+            left: 85px;
+            right: 0;
+            margin: 0;
+    }
 }
