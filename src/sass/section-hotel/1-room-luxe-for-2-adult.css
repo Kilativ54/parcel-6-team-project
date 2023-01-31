@@ -85,7 +85,7 @@ ul {
   align-items: center;
 }
 .buttons__style {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.4);
   border: 2px solid #FFFDEE;
   border-radius: 25px;
   max-width: 236px;
