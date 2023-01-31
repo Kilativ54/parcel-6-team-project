@@ -25,6 +25,72 @@ img {
 }
 
 // .container {
+//     width: 100%;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//     margin: 0 auto;
+// }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.restaurant-slogon {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+
+  color: #b4b4b4;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+
+  margin: 12px 0;
+
+  color: #494848;
+}
+
+.restaurant-info-list {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.restaurant-info-list:first-child {
+  color: #7a7a7a;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+.restaurant-info-list:last-child {
+  color: #c79002;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+// .container {
 //   width: 100%;
 //   padding-right: 15px;
 //   padding-left: 15px;
@@ -233,4 +299,5 @@ ul {
 .restaurant-info-list:last-child {
   color: #c79002;
 } 
+
 
