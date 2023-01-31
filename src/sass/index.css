@@ -440,6 +440,7 @@ li {
   }
 }
 
+
 p,
 h1,
 h2,
@@ -858,6 +859,41 @@ ul {
   height: auto;
 }
 
+.details-restaurant {
+  background-color: var(--black);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 414px) {
+  .details-restaurant {
+    min-width: 414px;
+    height: 735px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-m@1x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .details-restaurant {
+    min-width: 1024px;
+    height: 620px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-t@1x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-restaurant {
+    max-width: 1280px;
+    height: 620px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@1x.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .details-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@2x.jpg);
+    background-size: cover;
+  }
+}
 .wrapper {
   background-color: #fffdee;
   outline: solid red;
@@ -1379,6 +1415,94 @@ ul {
   color: #C79002;
 }
 
+h3 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.section-menu {
+  padding-top: 32px;
+  padding-bottom: 46px;
+}
+
+.section-menu__header {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 32px;
+  color: #000000;
+}
+
+.section-menu__list {
+  display: block;
+}
+
+.section-menu__hot-dishes-list {
+  display: block;
+}
+
+.section-menu__box {
+  display: flex;
+}
+
+.section-menu__box-item1 {
+  display: block;
+  width: 225px;
+}
+
+.section-menu__box-item2 {
+  display: flex;
+  margin-top: 15px;
+}
+
+.section-menu__dish-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.section-menu__dish-weight {
+  margin-right: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.section-menu__dish-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.section-menu__dish {
+  display: block;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -1591,14 +1715,18 @@ ul {
   line-height: 20px;
   letter-spacing: 0.02em;
   max-width: 757px;
+  color: #7a7a7a;
   margin-bottom: 32px;
 }
 
 .listAmenities__description {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
+  color: #7a7a7a;
   margin-bottom: 32px;
 }
 @media screen and (min-width: 1024px) {
@@ -1649,6 +1777,8 @@ ul {
 }
 .navAmenities__Button {
   display: block;
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -1688,6 +1818,8 @@ ul {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -1946,7 +2078,7 @@ ul {
   margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Times New Roman";
+  font-family: "TimesNewRoman";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
