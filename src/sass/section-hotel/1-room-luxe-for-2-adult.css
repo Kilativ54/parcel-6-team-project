@@ -1,1 +1,146 @@
-/*# sourceMappingURL=1-room-luxe-for-2-adult.css.map */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section-hotel {
+  padding: 32px 0;
+  max-width: 414px;
+  width: 100%;
+}
+.section-hotel--fortwo {
+  background-color: #FFFDEE;
+}
+
+.container-hotel {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.hotel-card__text {
+  font-family: "TimesNewRoman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #B4B4B4;
+  margin-bottom: 8px;
+}
+
+.hotel-card__title {
+  font-family: "FilmP3", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+  color: #494848;
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-family: "TimesNewRoman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.room-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+  max-width: 258px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.room-img {
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.room-img__styles {
+  max-width: 244px;
+  width: 100%;
+  height: auto;
+  background: #DADADA;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons__style {
+  background: #000000;
+  border: 2px solid #FFFDEE;
+  border-radius: 25px;
+  max-width: 236px;
+  width: 100%;
+  padding: 14px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+}
+.buttons__style:hover {
+  background-color: #FFFFFF;
+  border-color: #F3C653;
+  color: #F3C653;
+}
+.buttons__style:focus {
+  background-color: #FFFFFF;
+  border-color: #F3C653;
+  color: #F3C653;
+}
+
+.htlswiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 0 0 20px;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-18%);
+}
+
+.htlswiper-btns {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 20px;
+}
+.htlswiper-btns__left {
+  background-color: transparent;
+  padding: 8px 1px 7px;
+  border: none;
+}
+.htlswiper-btns__right {
+  background-color: transparent;
+  padding: 8px 1px 7px;
+  border: none;
+}
+
+.htlswiper-img {
+  background: #DADADA;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  max-width: 194px;
+  width: 100%;
+}/*# sourceMappingURL=1-room-luxe-for-2-adult.css.map */

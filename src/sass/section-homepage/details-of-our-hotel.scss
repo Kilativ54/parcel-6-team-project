@@ -1,0 +1,52 @@
+.wrapper {
+}
+.details-hotel {
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 414px;
+  max-height: 735px;
+
+  background-image: url(/src/images/about-our-hotel/about-hotel__room--m.jpg);
+}
+
+.details-hotel__info {
+  margin-right: 140px;
+  margin-left: 32px;
+  @media screen and (min-width: 1124px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.details-hotel__title {
+  margin: 0;
+  font-family: 'FilmP3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  text-align: right;
+  text-transform: uppercase;
+  outline: solid gold;
+  @media screen and (min-width: 1124px) {
+    font-size: 64px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.details-hotel__hotel {
+  outline: solid pink;
+  text-align: right;
+}
+.details-hotel__text {
+  outline: solid cyan;
+}
+.details-hotel__slider {
+}
+.button__reserve-room {
+}
+.button__check-prices {
+}
