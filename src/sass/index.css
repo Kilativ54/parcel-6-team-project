@@ -1868,7 +1868,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 415px) {
   .logo-container {
     margin-left: 49px;
     margin-right: 85px;
@@ -1876,13 +1876,11 @@ ul {
 }
 @media screen and (min-width: 1024px) {
   .logo-container {
-    margin-left: 107px;
     margin-right: 163px;
   }
 }
 @media screen and (min-width: 1280px) {
   .logo-container {
-    margin-left: 131px;
     margin-right: 231px;
   }
 }
@@ -1916,14 +1914,14 @@ ul {
     margin-bottom: 33px;
   }
 }
-@media screen and (min-width: 239px) {
+@media screen and (min-width: 1023px) {
   .footer-nav {
-    margin-right: 138px;
+    margin-right: 149px;
   }
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 1280px) {
   .footer-nav {
-    margin-right: 70px;
+    margin-right: 210px;
   }
 }
 
@@ -1945,6 +1943,8 @@ ul {
   .social-icons__list {
     display: flex;
     gap: 23px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 }
 @media screen and (min-width: 1024px) {
