@@ -26,6 +26,7 @@
 
   @media screen and (min-width: 1024px) {
     width: 1024px;
+    max-height: 1238px;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
@@ -52,8 +53,12 @@
   margin-bottom: 28px;
   margin-left: auto;
   text-align: right;
-  outline: solid black;
   @media screen and (min-width: 1024px) {
+    width: auto;
+  }
+  @media screen and (min-width: 1280px) {
+    margin: 0;
+    width: auto;
   }
 }
 
@@ -96,14 +101,16 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #494848;
+  margin-bottom: 16px;
+  text-align: right;
 
   @media screen and (min-width: 1024px) {
     font-size: 64px;
     line-height: calc(69 / 64);
+    margin: 0;
     margin-bottom: 24px;
   }
   @media screen and (min-width: 1280px) {
-    color: #494848;
   }
 }
 
@@ -114,6 +121,9 @@
   font-size: 12px;
   line-height: calc(15 / 12);
   color: #5f5f5f;
+  text-align: left;
+  width: 100%;
+
   @media screen and (min-width: 1024px) {
     font-size: 16px;
     line-height: calc(20 / 16);
@@ -131,30 +141,17 @@
   line-height: calc(15 / 12);
   letter-spacing: 0.02em;
   color: #c79002;
+  width: 163px;
+
   @media screen and (min-width: 1024px) {
     font-size: 16px;
     line-height: calc(20 / 16);
     width: 312px;
   }
-}
-
-.about-hotel__image-room {
-  margin-right: auto;
-
-  @media screen and (min-width: 1024px) {
-    position: relative;
-    top: -44px;
-    margin: 0;
+  @media screen and (min-width: 1280px) {
   }
 }
 
-.about-hotel__lobby {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-direction: row-reverse;
-  margin-bottom: 32px;
-}
 .about-hotel__image-room {
   width: 100%;
   max-width: 244px;
@@ -165,10 +162,26 @@
     width: 400px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     margin: 0;
+    position: relative;
+    top: -44px;
   }
   @media screen and (min-width: 1280px) {
-    width: 100%;
     max-width: 450px;
+  }
+}
+
+.about-hotel__lobby {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row-reverse;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1280px) {
+    position: relative;
+    top: -112px;
+    gap: 45px;
   }
 }
 
@@ -178,12 +191,10 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   @media screen and (min-width: 1024px) {
-    width: 100%;
     max-width: 350px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
   @media screen and (min-width: 1280px) {
-    width: 100%;
     max-width: 450px;
   }
 }
