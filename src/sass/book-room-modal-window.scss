@@ -75,23 +75,22 @@
   }
 }
 
-.form-modal {
+.form-room {
   @media screen and (min-width: 1024px) {
-  display: flex;  
+  display: flex; 
+  justify-content: flex-end; 
   flex-wrap: wrap;
   gap: 28px 16px;
   }
 }
 
-.form-modal-box{
-  margin-bottom: 20px;
-
-  // display: flex;
-  // flex-direction: column;
-  // flex-wrap: wrap;
-
+.form-room__box{
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 20px;  
+  }
 }
-.form-modal__title {
+
+.form-room__title {
   margin-top: 0;
   margin-bottom: 40px;
   text-align: center;
@@ -116,17 +115,21 @@
 
 }
 
-.form-modal__field {
+.form-room{
+  margin-bottom: 40px;
+}
+
+.form-room__field {
   display: flex;
   margin-bottom: 8px;
 
 }
 
-// .form-modal__input--padding{
+// .form-room__input--padding{
 //   padding: 17px 12px;
 // }
 
-.form-modal__input {
+.form-room__input {
   width: 100%;
   padding: 16px 12px;
 
@@ -153,7 +156,7 @@
   }
 }
 
-.form-modal__label {
+.form-room__label {
   display: block;  
 
   font-family: 'Montserrat';
@@ -166,7 +169,7 @@
   color: #C79002;
 }
 
-.form-modal__group {
+.form-room__group {
   margin-bottom: 8px;
   position: relative;
  
@@ -176,7 +179,7 @@
   }
 }
 
-.form-modal__wrap::before {  
+.form-room__wrap::before {  
   content: "";
   position: absolute;
   display: block;
@@ -193,7 +196,19 @@
   }
 }
 
-.form-modal__select {
+.form-room__date {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    gap: 0 16px;
+  }
+}
+// @media screen and (max-width: 1023px) {
+  .form-room__date > .form-room__box:last-child{
+    margin-bottom: 0;
+  }
+// }
+
+.form-room__select {
   padding: 16px 12px;
   width: 100%;
 
@@ -221,11 +236,11 @@
   }
 }
 
-.form-modal__select:focus {
+.form-room__select:focus {
   outline: none;
 }
 
-.form-modal__select {
+.form-room__select {
   // padding-right: 25px;
   // -webkit-appearance: none;
   // -moz-appearance: none;
@@ -233,12 +248,11 @@
   overflow: hidden;
 }
 
-.modal__button {
+.room__button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 298px;
-  padding: 20px 43px;
+  width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
   font-family: 'Montserrat';
   font-style: normal;
@@ -270,3 +284,5 @@
     border: 1px solid #F3C653;
   }
 }
+
+

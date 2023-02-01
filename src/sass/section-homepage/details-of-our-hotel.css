@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 414px;
   max-height: 735px;
-  background-image: url(/src/images/about-our-hotel/about-hotel__room--m.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/images/details-our-hotel/details-hotel__bg--m.jpg);
 }
 
 .details-hotel__info {
@@ -25,7 +25,7 @@
   text-transform: uppercase;
   outline: solid gold;
 }
-@media screen and (min-width: 1124px) {
+@media screen and (min-width: 1024px) {
   .details-hotel__title {
     font-size: 64px;
   }
@@ -33,8 +33,73 @@
 .details-hotel__hotel {
   outline: solid pink;
   text-align: right;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .details-hotel__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #bababa;
   outline: solid cyan;
+}
+
+.details-hotel__slider {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 32px;
+}
+
+.details-hotel__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  outline: solid purple;
+}
+
+.button__reserve-room {
+  width: 100%;
+  max-width: 236px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 14px 0;
+  color: #f3c653;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button__check-prices {
+  width: 100%;
+  max-width: 236px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 14px 0;
+  color: #f3c653;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
 }/*# sourceMappingURL=details-of-our-hotel.css.map */

@@ -1,0 +1,128 @@
+<button type="button" data-popup-btn="book-room-modal" class="popup-link">
+  ЗАБРОНЮВАТИ НОМЕР
+</button>
+
+<div data-popup-target="book-room-modal" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button type="button" class="popup__close close-popup">
+        <svg class="modal__icon" width="24" height="24">
+          <!-- <use href="../images/icons.svg#icon-close"></use> --></svg
+        >х
+      </button>
+      <h2 class="form-room__title">Забронювати номер</h2>
+      <form name="form" class="form-room">
+        <div class="form-room__box">
+          <div class="form-room__field">
+            <input
+              class="form-room__input form-room__input--padding"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Ваше ім’я"
+              required
+            />
+          </div>
+          <label for="user-name" class="form-room__label"
+            >На кого забронювати столик?</label
+          >
+        </div>
+
+        <div class="form-room__box">
+          <div class="flex-box inputs-wrap form-room__field">
+            <input
+              type="text"
+              class="form-room__input js-inputmask"
+              name="user-tel"
+              id="user-tel"
+              required
+            />
+          </div>
+          <label for="user-tel" class="form-room__label">Номер телефону</label>
+        </div>
+
+        <div class="form-room__box">
+          <div class="form-room__group">
+            <div class="form-room__wrap flex-box selects-wrap">
+              <select
+                name="select-people"
+                class="js-select form-room__select"
+                id="select-people"
+                required
+              >
+                <option value="1">ДВОМІСНИЙ НОМЕР</option>
+                <option value="2" selected>Двомісний люкс</option>
+                <option value="3">ТРЬОХМІСНИЙ НОМЕР</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="select-people" class="form-room__label"
+            >Категорія номеру</label
+          >
+        </div>
+
+        <div class="form-room__date">
+          <div class="form-room__box">
+            <div class="form-room__group">
+              <div class="form-room__wrap flex-box selects-wrap">
+                <select
+                  name="select-date"
+                  class="js-select form-room__select"
+                  id="select-date"
+                  required
+                >
+                  <option value="1">Сьогодні</option>
+                  <option value="2">Неділя</option>
+                  <option value="3">Понеділок</option>
+                  <option value="4">Вівторок</option>
+                  <option value="5">Середа</option>
+                  <option value="6">Четверг</option>
+                  <option value="7">П'ятниця</option>
+                  <option value="8">Субота</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="select-date" class="form-room__label"
+              >Дата заїзду</label
+            >
+          </div>
+
+          <div class="form-room__box">
+            <div class="form-room__group">
+              <div class="form-room__wrap flex-box selects-wrap">
+                <select
+                  name="select-date"
+                  class="js-select form-room__select"
+                  id="select-date"
+                  required
+                >
+                  <option value="1">Сьогодні</option>
+                  <option value="2">Неділя</option>
+                  <option value="3">Понеділок</option>
+                  <option value="4">Вівторок</option>
+                  <option value="5">Середа</option>
+                  <option value="6">Четверг</option>
+                  <option value="7">П'ятниця</option>
+                  <option value="8">Субота</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="select-date" class="form-room__label"
+              >Дата виїзду</label
+            >
+          </div>
+        </div>
+      </form>
+      <button
+        type="button"
+        data-popup-btn="room-price-modal"
+        class="room__button button submit popup-link"
+      >
+        Оформити бронювання
+      </button>
+    </div>
+  </div>
+</div>
