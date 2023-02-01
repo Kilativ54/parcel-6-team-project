@@ -1,1 +1,148 @@
-/*# sourceMappingURL=amenities.css.map */
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+  font-style: normal;
+}
+
+.sectionAmenities {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #fffdee;
+}
+@media screen and (min-width: 1024px) {
+  .sectionAmenities {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sectionAmenities {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+.containerAmenities {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1279px) {
+  .containerAmenities {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containerAmenities {
+    max-width: 414px;
+  }
+}
+
+.titleAmenities {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.descriptionAmenities {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-bottom: 32px;
+}
+.descriptionAmenities__paragraph {
+  margin-bottom: 16px;
+}
+
+.listAmenities__title {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.bookRoomModalWindowOpenBooton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+  padding: 20px 43px;
+  text-transform: uppercase;
+}
+
+.amenitiesBackLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.amenitiesBackLink::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  margin-left: 16px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png");
+}/*# sourceMappingURL=amenities.css.map */

@@ -1,0 +1,73 @@
+$titleColor: #000000;
+$textColor: #7a7a7a;
+$linkColor: #c79002;
+$linkAccent: #f3c653;
+$btnColor: #ffffff;
+$bgnColor: #fffdee;
+
+
+.hero-amenities__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+      align-content: flex-end;
+      flex-wrap: wrap;
+    }
+  }
+  .hero-amenities__btn {
+    margin-bottom: 20px;
+    padding: 20px 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  
+    background-color: $titleColor;
+    color: $btnColor;
+    border: 1px solid #f3c653;
+    border-radius: 25px;
+    transition: background-color 250ms linear;
+    transition: color 250ms linear;
+    &:hover,
+    &:focus {
+      background-color: $linkAccent;
+      color: $titleColor;
+    }
+    @media screen and (min-width: 1024px) {
+      padding: 18px 38px;
+      font-size: 24px;
+      line-height: 1.21;
+    }
+  }
+  
+  .hero-amenities__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+  
+    letter-spacing: 0.02em;
+  
+    color: $linkColor;
+    transition: color 250ms linear;
+    &:hover,
+    &:focus {
+      color: $linkAccent;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+  }
+  
+  .hero-amenities__arrow {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+  }
