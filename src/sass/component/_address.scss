@@ -1,0 +1,41 @@
+.address {
+
+// display: flex;
+    
+// @media (mix-width: 1024px) {
+//         display: none;
+//     }
+
+    &__link {
+        margin-left: auto;
+        margin-right: 15px;
+        margin-bottom: 32px;
+        margin-top: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 8px 3px 8px 3px;
+        max-width: 210px;
+        height: 100%;
+        border: 0.5px solid $accentColor;
+        border-radius: 2px;
+    }
+
+    &__icon {
+        
+        display: block;
+        fill: $accentColor;
+    }
+
+    &__text {
+        margin-left: 13px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+        color: #E5E5E5;
+    }
+
+}

@@ -1,0 +1,46 @@
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Стилі для обнулення базових властивостей у списках (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Стилі для обнулення базових властивостей у посиланнях */
+li {
+    text-decoration: none;
+    color: inherit;
+}
+
+.address {
+    font-style: normal;
+}
+
+
+/* Глобальне обнулення відступів та відміна автоматичної стилізації списків та посилань*/ 
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+

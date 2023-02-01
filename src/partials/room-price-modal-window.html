@@ -1,0 +1,58 @@
+<button type="button" data-popup-btn="room-price-modal" class="popup-link">
+  ЦІНИ НА НОМЕР
+</button>
+
+<div data-popup-target="room-price-modal" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button type="button" class="popup__close close-popup">
+        <svg class="price__icon" width="24" height="24">
+          <!-- <use href="../images/icons.svg#icon-close"></use> --></svg
+        >х
+      </button>
+      <h2 class="form-price__title">Ціни на номер</h2>
+      <form name="form" class="form-price">
+        <div class="form-price__category">
+          <p class="form-price__room">Двомісний люкс</p>
+          <p class="form-price__label">Категорія номеру</p>
+        </div>
+
+        <div class="form-price__wrap">
+          <div class="form-price__box">
+            <div class="form-price__field">
+              <input
+                class="form-price__input form-price__input--padding"
+                type="number"
+                name="number-night"
+                id="number-night"
+                placeholder="1"
+                required
+              />
+            </div>
+            <label for="number-night" class="form-price__label"
+              >Кількість ночей</label
+            >
+          </div>
+
+          <div class="form-price__box">
+            <div class="form-price__field">
+              <input
+                class="form-price__input form-price__input--padding"
+                type="number"
+                name="number-night"
+                id="number-night"
+                placeholder="1000"
+                required
+              />
+            </div>
+            <label for="number-night" class="form-price__label">грн</label>
+          </div>
+        </div>
+
+        <button type="submit" class="price__button button submit">
+          Забронювати номер
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

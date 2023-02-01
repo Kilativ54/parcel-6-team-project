@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'FilmP3';
+    font-size: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/FilmP3Bold.woff2') format('woff2'),
+        url('../fonts/FilmP3Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRoman';
+    font-size: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/TimesNewRomanMTStd.woff2') format('woff2'),
+        url('../fonts/TimesNewRomanMTStd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRoman';
+    font-size: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/TimesNewRomanMTStd-Bold.woff2') format('woff2'),
+        url('../fonts/TimesNewRomanMTStd-Bold.woff') format('woff');
+}
