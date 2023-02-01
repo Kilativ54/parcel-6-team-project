@@ -52,6 +52,22 @@
   margin-bottom: 28px;
   margin-left: auto;
   text-align: right;
+  outline: solid black;
+  @media screen and (min-width: 1024px) {
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .about-hotel__title-above {
@@ -87,7 +103,7 @@
     margin-bottom: 24px;
   }
   @media screen and (min-width: 1280px) {
-    color: #828282;
+    color: #494848;
   }
 }
 
