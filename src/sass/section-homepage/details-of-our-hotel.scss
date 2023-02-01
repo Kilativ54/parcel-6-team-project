@@ -1,7 +1,8 @@
 .wrapper {
 }
 .details-hotel {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,10 +10,9 @@
   max-width: 414px;
   max-height: 735px;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/src/images/details-our-hotel/details-hotel__bg--m.jpg);
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  backgroun-image: url('/src/images/details-our-hotel/details-hotel__bg--m.jpg');
 }
-
 .details-hotel__info {
   margin-right: 140px;
   margin-left: 32px;
