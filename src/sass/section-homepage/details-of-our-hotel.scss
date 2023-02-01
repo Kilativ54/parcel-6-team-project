@@ -9,25 +9,22 @@
   width: 100%;
   max-width: 414px;
   max-height: 735px;
-  outline: solid red;
-  // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  // background-image: url('/src/images/details-our-hotel/details-hotel__bg--m.jpg');
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/src/images/details-our-hotel/details-hotel__bg--m.jpg);
 
   @media screen and (min-width: 1024px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(/src/images/details-our-hotel/details-hotel__bg--t.jpg);
     width: 100%;
     max-width: 1024px;
   }
   @media screen and (min-width: 1280px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(/src/images/details-our-hotel/details-hotel__bg--d.jpg);
+    width: 100%;
+    max-width: 1280px;
   }
-  width: 100%;
-  max-width: 1280px;
 }
 
 .details-hotel__info {
@@ -48,6 +45,7 @@
   letter-spacing: 0.3em;
   text-align: right;
   text-transform: uppercase;
+  color: #ffffff;
 
   @media screen and (min-width: 1024px) {
     font-size: 64px;
@@ -61,7 +59,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24px / 20px);
   letter-spacing: 0.02em;
 
   color: #ffffff;
