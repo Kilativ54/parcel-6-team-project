@@ -1,16 +1,15 @@
 .wrapper {
   background-color: #fffdee;
-  outline: solid red;
+
   max-width: 414px;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
 
   @media screen and (min-width: 1024px) {
-    max-width: 1124px;
-    outline: solid yellow;
+    max-width: 1024px;
   }
   @media screen and (min-width: 1280px) {
-    outline: solid green;
     max-width: 1280px;
   }
 }
@@ -22,7 +21,7 @@
 
 .about-hotel__info {
   margin-left: auto;
-  outline: 5px solid lime;
+
   text-align: end;
   width: 100%;
   max-width: 258px;
@@ -159,5 +158,4 @@
 .about-hotel__slider {
   height: 100px;
   width: 100px;
-  background-color: lime;
 }

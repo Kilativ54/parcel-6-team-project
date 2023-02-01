@@ -31,7 +31,7 @@
   letter-spacing: 0.3em;
   text-align: right;
   text-transform: uppercase;
-  outline: solid gold;
+
   @media screen and (min-width: 1024px) {
     font-size: 64px;
   }
@@ -39,7 +39,6 @@
   }
 }
 .details-hotel__hotel {
-  outline: solid pink;
   text-align: right;
   font-family: 'Montserrat';
   font-style: normal;
@@ -59,12 +58,11 @@
   letter-spacing: 0.02em;
 
   color: #bababa;
-  outline: solid cyan;
 }
 .details-hotel__slider {
   width: 100px;
   height: 100px;
-  background-color: pink;
+
   margin-bottom: 32px;
 }
 
@@ -74,8 +72,6 @@
   align-items: center;
   flex-direction: column;
   gap: 16px;
-
-  outline: solid purple;
 }
 
 .button__reserve-room {
