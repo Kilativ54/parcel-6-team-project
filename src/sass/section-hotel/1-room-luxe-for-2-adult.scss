@@ -1,15 +1,15 @@
-body{
-    max-width: 414px;
-    width: 100%;
-    /* table */
-    @media screen and (min-width:415px) and (max-width:1025px){
-        max-width: 1024px;
-    }
-    /* desktop */
-    @media (min-width:1025px) {
-        max-width: 1280px;
-    }
-}
+// body{
+//     max-width: 414px;
+//     width: 100%;
+//     /* table */
+//     @media screen and (min-width:415px) and (max-width:1025px){
+//         max-width: 1024px;
+//     }
+//     /* desktop */
+//     @media (min-width:1025px) {
+//         max-width: 1280px;
+//     }
+// }
 
 ul {
     margin: 0;
@@ -192,7 +192,7 @@ img {
     margin: 0 auto;
 
     &__style {
-            background: rgba(0, 0, 0, 0.4);
+            background: #000000;
             border: 2px solid #FFFDEE;
             border-radius: 25px;
             width: 236px;

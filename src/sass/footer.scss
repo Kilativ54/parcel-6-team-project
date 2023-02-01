@@ -27,7 +27,7 @@
 }
 
 .logo-container {
-    @media screen and (min-width: 414px) {
+    @media screen and (min-width: 415px) {
 
         margin-left: 49px;
         margin-right: 85px;
@@ -35,13 +35,13 @@
 
     @media screen and (min-width: 1024px) {
 
-        margin-left: 107px;
+        // margin-left: 107px;
         margin-right: 163px;
     }
 
     @media screen and (min-width: 1280px) {
 
-        margin-left: 131px;
+        // margin-left: 131px;
         margin-right: 231px;
     }
 }
@@ -74,24 +74,26 @@
     @media screen and (min-width: 1024px) {
 
         display: flex;
+        
     }
 }
 
 .footer-nav {
     @media screen and (max-width: 1024px) {
         margin-bottom: 33px;
+        
     }
 
-    @media screen and (min-width: 239px) {
+    @media screen and (min-width: 1023px) {
 
-        margin-right: 138px;
-        // min-width: 239px;
+        margin-right: 149px;
+        
     }
 
-    @media screen and (min-width: 300px) {
+    @media screen and (min-width: 1280px) {
 
         // min-width: 300px;
-        margin-right: 70px;
+        margin-right: 210px;
     }
 }
 
@@ -115,8 +117,9 @@
 .social-icons__list {
     @media screen and (max-width: 1024px) {
         display: flex;
-        // flex-direction: row-reverse;
         gap: 23px;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
 
     }
 

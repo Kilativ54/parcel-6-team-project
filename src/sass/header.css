@@ -25,4 +25,7 @@
   .header__network {
     display: none;
   }
+}
+.header__address {
+  display: none;
 }/*# sourceMappingURL=header.css.map */

@@ -1,10 +1,13 @@
 .hero-homepage{
-    position: relative;
+    // position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 740px;
+    // z-index: -10;
+    
+    height: 100%;
     width: 100%;
+    padding-bottom: 102px;
     @media (max-width:1023px) {      
          
         background-image:
@@ -26,7 +29,8 @@
     }
 
         @media (min-width:1024px) {
-            height: 720px;
+            
+            padding-bottom: 64px;
             background-image:
                 linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
@@ -48,12 +52,15 @@
 
 
             @media (min-width:1280px){
+           
+            padding-bottom: 65px;  
+
             background-image: 
             linear-gradient(rgba(0, 0, 0, 0.65),
                             rgba(0, 0, 0, 0.65)),
             url(../images/homepage-desktop-hero.jpg);   
         
-            height: 720px;
+           
 
                         @media (min-device-pixel-ratio: 2),
                             (-webkit-min-device-pixel-ratio: 2),
@@ -71,13 +78,13 @@
 
 
 .hero-homepage-blok{
-    max-width: 100%;
+    max-width: 318px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 
-    @media (min-width:1280px){
-        max-width: 604px;
+    @media (min-width:1024px){
+        max-width: 404px;
     }
     
 
@@ -85,16 +92,17 @@
 }
 
 .hero-homepage-title{
-    font-family: 'Film P3';
+    font-family: 'FilmP3';
     color: #FFFFFF;
     font-size:96px;
     font-weight: 700;
     line-height: 1.08;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.3em;
 
     margin: 0;
     margin-bottom: 24px;
     padding-top: 181px;
+    text-align: center;
 
     @media (min-width: 1024px) and (max-width: 1279px){
         font-size: 128px;
@@ -134,7 +142,7 @@
 
 .hero-homepage-text{
     color: #FFFFFF;
-    font-family: 'Times New Roman';
+    font-family: 'TimesNewRoman';
     font-weight: 700;
     font-size: 32px;
     line-height: 1.15;
@@ -166,43 +174,52 @@
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.01em;
-
+    
     margin: 0;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-    padding: 8px 3px 9px 34px;
-    width: 210px;    
+    padding: 8px 3px 9px 11px;
+    width: 210px;
+      
 
         @media (max-width: 1023px){
             top: 64px;
             right: 15px;
+             z-index: 1;              
         }
 
         @media (min-width: 1024px) and (max-width: 1279px){
-            
+            left: 94px;
+            padding: 8px 3px 9px 34px;
         }
 
                  @media (min-width:1280px){
                     font-size: 16px;
                     padding: 8px;
+                    width: 285px;
+                    padding: 8px 3px 9px 34px;
                  }
 }
 
+.hero-homepage-address_box{
+    width: 179px;
+}
+
 .hero-homepage-address_link{
-    color: #E5E5E5;
-    
+    color: #E5E5E5;    
+   
 }
 
 .hero-homepage-box-button{
     
-    width: 232px;
+    // width: 232px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     
         @media (min-width: 1024px) {
             display: flex;           
-
+            justify-content: flex-end;
         }
 
 }
@@ -213,42 +230,67 @@
     font-family: 'Montserrat';    
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.25;     
-    letter-spacing: 0.02em;
+    line-height: 1.22;     
+    // letter-spacing: 0.02em;
 
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
     border-radius: 25px;
-    padding: 14px 35px;
-    width: 232px;
+    padding: 14px 24px;
+    width: 236px;
+    // margin-bottom: 61px;
 
-        &:hover {
+        &:hover,
+        &:focus {
                 background: #FFFFFF;
                 border: 2px solid #F3C653;
             }
     
-    @media (max-width: 1023px){
+    @media (max-width: 1023px){       
         &:first-child {
-            margin-bottom: 24px;
+            margin-bottom: 24px;            
         }
     }   
             
     
                         @media (min-width: 1024px) and (max-width: 1279px){
                             min-width: 258px;
+                            line-height: 1.25;                           
                             &:first-child {
                                     margin-right: 40px;
                                 }
                             
                         }
 
-                            @media (min-width:1280px){
+                            @media (min-width:1280px){                               
+                                line-height: 1.25;
                                 min-width: 258px;
                                 &:not(:last-child){                                    
                                     margin-right: 60px;
                             }                            
-                            }
+                            }    
+}
 
-    
+.social{
+    position: absolute;
+
+        @media (max-width: 1023px){
+            bottom: -110px;
+            left: 15px;
+        }
+
+                @media (min-width: 1024px) and (max-width: 1279px){
+                    left: 94px;
+                    margin-top: 28px;
+                }
+
+                                @media (min-width:1280px){
+                                    display: none;
+                                }
+
+}
+
+.icon-geotag{
+
 }
 
