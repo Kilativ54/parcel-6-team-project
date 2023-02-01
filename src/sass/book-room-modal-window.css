@@ -66,18 +66,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .form-modal {
+  .form-room {
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
     gap: 28px 16px;
   }
 }
 
-.form-modal-box {
-  margin-bottom: 20px;
+@media screen and (max-width: 1023px) {
+  .form-room__box {
+    margin-bottom: 20px;
+  }
 }
 
-.form-modal__title {
+.form-room__title {
   margin-top: 0;
   margin-bottom: 40px;
   text-align: center;
@@ -91,7 +94,7 @@
   color: #000000;
 }
 @media screen and (min-width: 1024px) {
-  .form-modal__title {
+  .form-room__title {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.15;
@@ -99,12 +102,16 @@
   }
 }
 
-.form-modal__field {
+.form-room {
+  margin-bottom: 40px;
+}
+
+.form-room__field {
   display: flex;
   margin-bottom: 8px;
 }
 
-.form-modal__input {
+.form-room__input {
   width: 100%;
   padding: 16px 12px;
   font-family: "Times New Roman";
@@ -119,7 +126,7 @@
   background-color: #fffdee;
 }
 @media screen and (min-width: 1024px) {
-  .form-modal__input {
+  .form-room__input {
     width: 288px;
     padding: 18px 12px;
     font-size: 24px;
@@ -127,7 +134,7 @@
   }
 }
 
-.form-modal__label {
+.form-room__label {
   display: block;
   font-family: "Montserrat";
   font-style: normal;
@@ -138,18 +145,18 @@
   color: #C79002;
 }
 
-.form-modal__group {
+.form-room__group {
   margin-bottom: 8px;
   position: relative;
 }
 @media screen and (min-width: 1024px) {
-  .form-modal__group {
+  .form-room__group {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-.form-modal__wrap::before {
+.form-room__wrap::before {
   content: "";
   position: absolute;
   display: block;
@@ -162,12 +169,23 @@
   pointer-events: none;
 }
 @media screen and (min-width: 1024px) {
-  .form-modal__wrap::before {
+  .form-room__wrap::before {
     right: 20px;
   }
 }
 
-.form-modal__select {
+@media screen and (min-width: 1024px) {
+  .form-room__date {
+    display: flex;
+    gap: 0 16px;
+  }
+}
+
+.form-room__date > .form-room__box:last-child {
+  margin-bottom: 0;
+}
+
+.form-room__select {
   padding: 16px 12px;
   width: 100%;
   font-family: "Times New Roman";
@@ -183,7 +201,7 @@
   background-color: #fffdee;
 }
 @media screen and (min-width: 1024px) {
-  .form-modal__select {
+  .form-room__select {
     width: 288px;
     padding: 18px 12px;
     font-size: 24px;
@@ -191,23 +209,22 @@
   }
 }
 
-.form-modal__select:focus {
+.form-room__select:focus {
   outline: none;
 }
 
-.form-modal__select {
+.form-room__select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   overflow: hidden;
 }
 
-.modal__button {
+.room__button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 298px;
-  padding: 20px 43px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -220,14 +237,14 @@
   border-radius: 2px;
 }
 @media screen and (min-width: 1024px) {
-  .modal__button {
+  .room__button {
     min-width: 592px;
     padding: 18px 117px;
     font-size: 24px;
     line-height: 1.2083333333;
   }
 }
-.modal__button:hover, .modal__button:focus {
+.room__button:hover, .room__button:focus {
   color: #000000;
   background-color: #F3C653;
   border: 1px solid #F3C653;
