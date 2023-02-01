@@ -1,7 +1,8 @@
 .wrapper {
 }
 .details-hotel {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +12,19 @@
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/src/images/details-our-hotel/details-hotel__bg--m.jpg);
+
+  @media screen and (min-width: 1024px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(/src/images/details-our-hotel/details-hotel__bg--t.jpg);
+    width: 100%;
+    max-width: 1024px;
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(/src/images/details-our-hotel/details-hotel__bg--d.jpg);
+    width: 100%;
+    max-width: 1280px;
+  }
 }
 
 .details-hotel__info {
@@ -31,7 +45,8 @@
   letter-spacing: 0.3em;
   text-align: right;
   text-transform: uppercase;
-  outline: solid gold;
+  color: #ffffff;
+
   @media screen and (min-width: 1024px) {
     font-size: 64px;
   }
@@ -39,13 +54,12 @@
   }
 }
 .details-hotel__hotel {
-  outline: solid pink;
   text-align: right;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24px / 20px);
   letter-spacing: 0.02em;
 
   color: #ffffff;
@@ -59,12 +73,11 @@
   letter-spacing: 0.02em;
 
   color: #bababa;
-  outline: solid cyan;
 }
 .details-hotel__slider {
   width: 100px;
   height: 100px;
-  background-color: pink;
+
   margin-bottom: 32px;
 }
 
@@ -74,8 +87,6 @@
   align-items: center;
   flex-direction: column;
   gap: 16px;
-
-  outline: solid purple;
 }
 
 .button__reserve-room {
@@ -93,10 +104,18 @@
   text-align: center;
   letter-spacing: 0.02em;
   background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+
+  &:hover,
+  &:focus {
+    background: #ffffff;
+    border: 2px solid #f3c653;
+  }
 }
 .button__check-prices {
-  width: 100%;
-  max-width: 236px;
+  // width: 100%;
+  width: 236px;
   border-radius: 25px;
   border: 2px solid #ffffff;
   padding: 14px 0;
@@ -110,4 +129,12 @@
   letter-spacing: 0.02em;
   background-color: rgba(0, 0, 0, 0.4);
   margin-bottom: 40px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    border: 2px solid #f3c653;
+  }
 }
