@@ -1,75 +1,72 @@
 
-.hero-hotel {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 102px;
-  @media (max-width:1023px) {
+// .hero-hotel {
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   height: 100%;
+//   width: 100%;
+//   padding-bottom: 102px;
+//   @media (max-width:1023px) {
 
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)),
-      url(../images/hotel-mobile-hero.jpg);}
-
-
-
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      background-image:
-        linear-gradient(rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)),
-        url(../images/hotel-mobile-hero2x.jpg);
-    }
-  }
-
-  @media (min-width:1024px) {
-
-    padding-bottom: 64px;
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)),
-      url(../images/hotel-tablet-hero.jpg);
+//     background-image:
+//       linear-gradient(rgba(0, 0, 0, 0.65),
+//         rgba(0, 0, 0, 0.65)),
+//       url(../images/hotel-mobile-hero.jpg);}
 
 
 
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      background-image:
-        linear-gradient(rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)),
-        url(../images/hotel-tablet-hero2x.jpg);
-    }
+//     @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//       background-image:
+//         linear-gradient(rgba(0, 0, 0, 0.65),
+//           rgba(0, 0, 0, 0.65)),
+//         url(../images/hotel-mobile-hero2x.jpg);
+//     }
+//   }
 
-  }
+//   @media (min-width:1024px) {
+
+//     padding-bottom: 64px;
+//     background-image:
+//       linear-gradient(rgba(0, 0, 0, 0.65),
+//         rgba(0, 0, 0, 0.65)),
+//       url(../images/hotel-tablet-hero.jpg);
+//       @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//       background-image:
+//         linear-gradient(rgba(0, 0, 0, 0.65),
+//           rgba(0, 0, 0, 0.65)),
+//         url(../images/hotel-tablet-hero2x.jpg);
+//     }
+
+  
+  
+
+//   @media (min-width:1280px) {
+
+//     padding-bottom: 65px;
+
+//     background-image:
+//       linear-gradient(rgba(0, 0, 0, 0.65),
+//         rgba(0, 0, 0, 0.65)),
+//       url(../images/hotel-desktop-hero.jpg);
 
 
-  @media (min-width:1280px) {
 
-    padding-bottom: 65px;
-
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)),
-      url(../images/hotel-desktop-hero.jpg);
-
-
-
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      background-image:
-        linear-gradient(rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)),
-        url(../images/hotel-desktop-hero2x.jpg);
-    }
-  }
+//     @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//       background-image:
+//         linear-gradient(rgba(0, 0, 0, 0.65),
+//           rgba(0, 0, 0, 0.65)),
+//         url(../images/hotel-desktop-hero2x.jpg);
+//     }
+//   }
 
 .hero-room-lux {
   background-color: #0e0c07;
