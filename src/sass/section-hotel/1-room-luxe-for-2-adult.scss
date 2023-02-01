@@ -1,16 +1,3 @@
-// body{
-//     max-width: 414px;
-//     width: 100%;
-//     /* table */
-//     @media screen and (min-width:415px) and (max-width:1025px){
-//         max-width: 1024px;
-//     }
-//     /* desktop */
-//     @media (min-width:1025px) {
-//         max-width: 1280px;
-//     }
-// }
-
 ul {
     margin: 0;
     padding: 0;
@@ -25,19 +12,16 @@ img {
 
 .section-hotel {
     padding: 32px 0;
-    max-width: 414px;
     width: 100%;
     position: relative;
 
     /* tablet */ 
     @media screen and (min-width:415px) and (max-width:1025px) {
             padding: 62px 0 40px;
-            max-width: 1024px;
         }
     /* desktop */ 
     @media (min-width: 1025px) {
         padding: 72px 0 40px;
-        max-width: 1280px;
     }
     &--fortwo {
             background-color: #FFFDEE
@@ -49,13 +33,16 @@ img {
 .container-hotel {
     padding: 0 15px;
     margin: 0 auto;
+    width: 414px;
     /* table */
     @media screen and (min-width:415px) and (max-width:1025px){
             padding: 0 47px;
+            width: 1024px;
         }
     /* desktop */
     @media (min-width:1025px) {
             padding: 0 85px;
+            width: 1280px;
         }
 }
 
