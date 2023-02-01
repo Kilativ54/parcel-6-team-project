@@ -1,12 +1,8 @@
 .address {
 
-// display: flex;
-    
-// @media (mix-width: 1024px) {
-//         display: none;
-//     }
 
-    &__link {
+
+    &__link--number {
         margin-left: auto;
         margin-right: 15px;
         margin-bottom: 32px;
@@ -19,6 +15,10 @@
         height: 100%;
         border: 0.5px solid $accentColor;
         border-radius: 2px;
+
+        @media (min-width: 1024px) {
+                    display: none;
+                }
     }
 
     &__icon {

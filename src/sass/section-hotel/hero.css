@@ -2,6 +2,101 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero-room-lux {
+  background-color: #0e0c07;
+  z-index: 1;
+}
+
+.hero-room-lux__con {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.hero-room-lux__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0;
+}
+@media (min-width: 414px) {
+  .hero-room-lux__container {
+    width: 414px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-room-lux__container {
+    width: 1024px;
+    padding: 0 0;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-room-lux__container {
+    width: 1280px;
+    padding: 0 0;
+  }
+}
+
+.hero-room__bg {
+  background-color: rgba(14, 12, 7, 0.5137254902);
+  z-index: 2;
+  width: 100%;
+  height: 143px;
+  position: absolute;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0));
+}
+@media screen and (min-width: 1024px) {
+  .hero-room__bg {
+    height: 116px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-room__bg {
+    height: 147px;
+  }
+}
+
+.hero-room__swiper-button-prev {
+  position: absolute;
+  left: 13px;
+}
+@media screen and (min-width: 1023px) {
+  .hero-room__swiper-button-prev {
+    left: 47px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-room__swiper-button-prev {
+    left: 83px;
+  }
+}
+
+.hero-room__swiper-button-next {
+  position: absolute;
+  right: 13px;
+  z-index: 3;
+}
+@media screen and (min-width: 1023px) {
+  .hero-room__swiper-button-next {
+    right: 47px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-room__swiper-button-next {
+    right: 83px;
+  }
+}
+
+.swiper-button-prev:after {
+  content: "";
+}
+
+.swiper-button-next:after {
+  content: "";
+}
+
+.hero-room__arrow-icon {
+  fill: #f3c653;
   height: 100%;
   width: 100%;
   padding-bottom: 102px;
@@ -36,5 +131,162 @@
 @media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hotel-desktop-hero2x.jpg);
+
+.hero-room-lux__title {
+  position: absolute;
+  top: 55%;
+  left: 47px;
+  display: inline;
+  margin-bottom: 14px;
+  z-index: 1;
+  font-family: "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  .hero-room-lux__title {
+    font-size: 36px;
+    line-height: 1.1388888889;
+  }
+}
+
+.part-title {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.hero-room-lux__text {
+  position: absolute;
+  top: 65%;
+  left: 47px;
+  width: 325px;
+  margin-bottom: 41px;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  .hero-room-lux__text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-room-lux__text {
+    margin-bottom: 0;
+  }
+}
+
+.wrap-hero-room {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.social__list__position {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media screen and (min-width: 1024px) {
+  .social__list__position {
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+    gap: 20px;
+  }
+}
+
+.wrap-soc {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .wrap-soc {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrap-soc {
+    display: none;
+  }
+}
+
+.social__icon {
+  fill: #f3c653;
+}
+
+@media screen and (max-width: 1023px) {
+  .social__item__position:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 9px;
+    margin-top: 0;
+  }
+}
+
+.address {
+  display: inline-block;
+}
+@media screen and (max-width: 1023px) {
+  .address {
+    position: absolute;
+    top: 105px;
+    right: 15px;
+  }
+}
+@media screen and (min-width: 351px) {
+  .address {
+    top: 64px;
+  }
+}
+.address__link {
+  padding: 7px;
+  display: flex;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+  transition: color 250ms linear;
+}
+@media screen and (min-width: 1024px) {
+  .address__link {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .address__link {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .address__link {
+    display: none;
+  }
+}
+.address .room-hero__button {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 1024px) {
+  .address .room-hero__button {
+    margin-right: 0;
+    position: absolute;
+    bottom: 66px;
+    right: 47px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .address .room-hero__button {
+    right: 83px;
   }
 }/*# sourceMappingURL=hero.css.map */
