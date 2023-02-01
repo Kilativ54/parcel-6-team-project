@@ -1,53 +1,7 @@
-// //reset
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-// }
-
-// /* Стили для обнуления верхних отступов у элементов */
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6,
-// p {
-//   margin-top: 0;
-//   margin-bottom: 0;
-//   padding: 0;
-// }
-
-// /* Класс для обнуления базовых свойств у списков (ul) */
-// .list {
-//   list-style: none;
-//   padding-left: 0;
-//   margin: 0;
-// }
-
-// /* Класс для обнуления базовых свойств у ссылок */
-// .link {
-//   text-decoration: none;
-//   color: inherit;
-// }
-
-// /* Свойства для корректного отображения картинок */
-// img {
-//   display: block;
-//   max-width: 100%;
-//   height: auto;
-// }
-
-// /* Свойства для обнуления курсива у address */
-// address {
-//   font-style: normal;
-// }
-
 //amenities
 .sectionAmenities {
   padding-top: 32px;
   padding-bottom: 32px;
-  // background: $fonLemon;
 
   @media screen and (min-width: 1024px) {
     padding-top: 50px;
@@ -59,21 +13,6 @@
   }
 }
 
-// .containerAmenities {
-//   max-width: 414px;
-//   padding: 0 15px;
-//   margin-left: auto;
-//   margin-right: auto;
-
-//   @media screen and (min-width: 1024px) {
-//     max-width: 1024px;
-//     padding: 0 47px;
-//   }
-//   @media screen and (min-width: 1280px) {
-//     max-width: 1280px;
-//     padding: 0 85px;
-//   }
-// }
 .titleAmenities {
   font-family: $fontTitle;
   // font-style: normal;
@@ -97,35 +36,6 @@
   margin-bottom: 32px;
 }
 
-.listAmenities__description {
-  // font-family: 'Montserrat';
-  // font-style: normal;
-  color: $fontColorBase;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
-  margin-bottom: 32px;
-
-  @media screen and (min-width: 1024px) {
-    display: inline-block;
-    width: 400px;
-  }
-  @media screen and (min-width: 1280px) {
-  }
-
-  &-paragraph {
-    margin-bottom: 16px;
-
-    @media screen and (min-width: 1024px) {
-      margin-right: 80px;
-    }
-    @media screen and (min-width: 1280px) {
-      margin-right: 159px;
-    }
-  }
-}
-
 .listAmenities {
   &__title {
     font-family: $fontTitle;
@@ -138,20 +48,50 @@
     color: $black;
     margin-bottom: 16px;
   }
-  &__general {
-  }
-  &__bathroom {
-  }
-  &__bedroom {
-  }
-  &__kitchen {
-  }
-  &__media {
+  &__item {
+    margin-bottom: 32px;
     @media screen and (min-width: 1024px) {
-      padding-bottom: 8px;
+      margin-bottom: 32px;
+    }
+  }
+  &__item:last-child {
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 40px;
     }
   }
 }
+
+.listAmenities__descriptionBox {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    gap: 159px;
+  }
+}
+
+.listAmenities__description {
+  // font-family: 'Montserrat';
+  // font-style: normal;
+  color: $fontColorBase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+
+  @media screen and (min-width: 1024px) {
+    width: 400px;
+  }
+
+  &-paragraph {
+    @media screen and (max-width: 1023px) {
+      margin-bottom: 16px;
+    }
+  }
+}
+
 .navAmenities {
   @media screen and (min-width: 1024px) {
     display: flex;
