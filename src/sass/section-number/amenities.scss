@@ -88,23 +88,23 @@
 .descriptionAmenities {
   // font-family: 'Montserrat';
   // font-style: normal;
+  color: $fontColorBase;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
   max-width: 757px;
-  // color: $fontColorBase;
   margin-bottom: 32px;
 }
 
 .listAmenities__description {
   // font-family: 'Montserrat';
   // font-style: normal;
+  color: $fontColorBase;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
-  // color: $fontColorBase;
   margin-bottom: 32px;
 
   @media screen and (min-width: 1024px) {
