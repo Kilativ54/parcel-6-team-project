@@ -131,33 +131,38 @@
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
-  line-height: 1.25;
+  line-height: 1.22;
   letter-spacing: 0.01em;
   margin: 0;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
-  padding: 8px 3px 9px 11px;
+  padding: 8px;
   width: 210px;
+  height: 47px;
 }
 @media (max-width: 1023px) {
   .hero-homepage-address {
     top: 64px;
     right: 15px;
-    z-index: 1;
+    margin-left: 36px;
+    padding: 8px 0px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
   .hero-homepage-address {
     left: 94px;
-    padding: 8px 3px 9px 34px;
+    width: 285px;
+    height: 56px;
+    font-size: 16px;
+    padding: 8px;
   }
 }
 @media (min-width: 1280px) {
   .hero-homepage-address {
     font-size: 16px;
-    padding: 8px;
     width: 285px;
-    padding: 8px 3px 9px 34px;
+    height: 56px;
+    padding: 8px;
   }
 }
 
@@ -167,6 +172,8 @@
 
 .hero-homepage-address_link {
   color: #E5E5E5;
+  display: block;
+  margin-left: 36px;
 }
 
 .hero-homepage-box-button {
@@ -226,7 +233,7 @@
 }
 @media (max-width: 1023px) {
   .social {
-    bottom: -110px;
+    bottom: -58px;
     left: 15px;
   }
 }
@@ -239,5 +246,26 @@
 @media (min-width: 1280px) {
   .social {
     display: none;
+  }
+}
+
+.icon-geotag {
+  vertical-align: middle;
+  float: left;
+}
+@media (max-width: 1023px) {
+  .icon-geotag {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  .icon-geotag {
+    margin-top: 8px;
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
   }
 }/*# sourceMappingURL=section-hero.css.map */
