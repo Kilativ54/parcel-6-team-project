@@ -13,6 +13,7 @@
 
 .about-hotel {
   outline: solid yellow;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -20,9 +21,9 @@
   background-size: cover;
   width: 100%;
   max-width: 414px;
-  max-height: 735px;
+
   height: 100%;
-  max-height: 1191px;
+  height: 1191px;
 
   @media screen and (min-width: 1024px) {
     width: 100%;
@@ -59,7 +60,7 @@
   margin-left: auto;
   text-align: end;
   @media screen and (min-width: 1024px) {
-    width: 419px;
+    max-width: 419px;
   }
   @media screen and (min-width: 1280px) {
     width: 488px;
@@ -124,10 +125,9 @@
   font-weight: 600;
   font-size: 12px;
   line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
   color: #7a7a7a;
   text-align: left;
-
-  letter-spacing: 0.2em;
 
   @media screen and (min-width: 1024px) {
     font-size: 16px;
@@ -209,14 +209,12 @@
 /* here swiper***********************************************************************************************************************************************************/
 
 // .about-hotel__swiper-position {
+
+// }
 //   position: absolute;
 // }
 
-// Hotel-about-swiper
-
-// swiper-container
 // .swiper-container
-
 
 // Hotel-about-swiper
 
@@ -225,9 +223,10 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 .hotel__swiper-container {
-  position: relative;
+  position: absolute;
   height: auto;
   width: 330px;
+
   @media screen and (min-width: $tablet) {
     width: 428px;
     position: absolute;
@@ -243,6 +242,7 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   bottom: 0px;
   position: absolute;
+
   @media screen and (max-width: 1023px) {
     bottom: 0px;
     right: 15px;
@@ -251,6 +251,7 @@
 // swiper-wrapper
 .hotel__wrap {
   width: 330px;
+
   @media screen and (min-width: $tablet) {
     width: 428px;
   }
