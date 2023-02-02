@@ -53,8 +53,12 @@
   margin-right: 140px;
   margin-left: 32px;
   @media screen and (min-width: 1024px) {
+    margin-right: 278px;
+    margin-left: 197px;
   }
   @media screen and (min-width: 1280px) {
+    margin-right: 338px;
+    margin-left: 347px;
   }
 }
 .details-hotel__title {
@@ -91,10 +95,19 @@
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 15px;
+  line-height: calc(15 / 12);
   letter-spacing: 0.02em;
-
+  width: 243px;
   color: #bababa;
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: calc(19.5 / 16);
+    width: 549px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 595px;
+  }
 }
 .details-hotel__slider {
   width: 100px;
@@ -135,7 +148,6 @@
   }
 }
 .button__check-prices {
-  // width: 100%;
   width: 236px;
   border-radius: 25px;
   border: 2px solid #ffffff;
