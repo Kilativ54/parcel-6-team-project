@@ -1,1 +1,271 @@
-/*# sourceMappingURL=section-hero.css.map */
+.hero-homepage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 102px;
+}
+@media (max-width: 1023px) {
+  .hero-homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-mobile-hero.jpg);
+  }
+}
+@media (max-width: 1023px) and (min-device-pixel-ratio: 2), (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1023px) and (min-resolution: 192dpi), (max-width: 1023px) and (min-resolution: 2dppx) {
+  .hero-homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-mobile-hero2x.jpg);
+  }
+}
+@media (min-width: 1024px) {
+  .hero-homepage {
+    padding-bottom: 64px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-tablet-hero.jpg);
+  }
+}
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-tablet-hero2x.jpg);
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage {
+    padding-bottom: 65px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-desktop-hero.jpg);
+  }
+}
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/homepage-desktop-hero2x.jpg);
+  }
+}
+
+.hero-homepage-blok {
+  max-width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .hero-homepage-blok {
+    max-width: 404px;
+  }
+}
+
+.hero-homepage-title {
+  font-family: "FilmP3";
+  color: #FFFFFF;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  margin: 0;
+  margin-bottom: 24px;
+  padding-top: 181px;
+  text-align: center;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-homepage-title {
+    font-size: 128px;
+    padding-top: 188px;
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage-title {
+    font-size: 128px;
+    padding-top: 164px;
+    margin-bottom: 32px;
+  }
+}
+
+.hero-homepage-subtitle {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+  margin-bottom: 40px;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-homepage-subtitle {
+    margin-bottom: 56px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage-subtitle {
+    font-size: 20px;
+    margin-bottom: 64px;
+  }
+}
+
+.hero-homepage-text {
+  color: #FFFFFF;
+  font-family: "TimesNewRoman";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-bottom: 113px;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-homepage-text {
+    font-size: 36px;
+    margin-bottom: 145px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage-text {
+    font-size: 36px;
+    line-height: 1.14;
+    margin-bottom: 144px;
+  }
+}
+
+.hero-homepage-address {
+  position: absolute;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.22;
+  letter-spacing: 0.01em;
+  margin: 0;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+  padding: 8px;
+  width: 210px;
+  height: 47px;
+}
+@media (max-width: 1023px) {
+  .hero-homepage-address {
+    top: 64px;
+    right: 15px;
+    margin-left: 36px;
+    padding: 8px 0px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-homepage-address {
+    left: 94px;
+    width: 285px;
+    height: 56px;
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage-address {
+    font-size: 16px;
+    width: 285px;
+    height: 56px;
+    padding: 8px;
+  }
+}
+
+.hero-homepage-address_box {
+  width: 179px;
+}
+
+.hero-homepage-address_link {
+  color: #E5E5E5;
+  display: block;
+  margin-left: 36px;
+}
+
+.hero-homepage-box-button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .hero-homepage-box-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.hero-homepage-button {
+  color: #F3C653;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.22;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  padding: 14px 24px;
+  width: 236px;
+}
+.hero-homepage-button:hover, .hero-homepage-button:focus {
+  background: #FFFFFF;
+  border: 2px solid #F3C653;
+}
+@media (max-width: 1023px) {
+  .hero-homepage-button:first-child {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-homepage-button {
+    min-width: 258px;
+    line-height: 1.25;
+  }
+  .hero-homepage-button:first-child {
+    margin-right: 40px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-homepage-button {
+    line-height: 1.25;
+    min-width: 258px;
+  }
+  .hero-homepage-button:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+.social {
+  position: absolute;
+}
+@media (max-width: 1023px) {
+  .social {
+    bottom: -58px;
+    left: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .social {
+    left: 94px;
+    margin-top: 28px;
+  }
+}
+@media (min-width: 1280px) {
+  .social {
+    display: none;
+  }
+}
+
+.icon-geotag {
+  vertical-align: middle;
+  float: left;
+}
+@media (max-width: 1023px) {
+  .icon-geotag {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  .icon-geotag {
+    margin-top: 8px;
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
+  }
+}/*# sourceMappingURL=section-hero.css.map */

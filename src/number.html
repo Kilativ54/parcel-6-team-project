@@ -4,18 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Number title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://uk.bestfonts.pro/fonts_files/6251c686a618ce77a33271d8/files/FilmP3Bold.woff2"
+      rel="stylesheet"
+    />
+    <link
+      href="https://uk.bestfonts.pro/fonts_files/6251c686a618ce77a33271d8/files/FilmP3Bold.woff"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/header.html"></include>
+    <include src="./partials/header-number.html"></include>
     <main>
-      <include src="./partials/section-number/hero.html"></include>
+      <include src="./partials/section-number/hero-room-lux.html"></include>
       <include src="./partials/section-number/amenities.html"></include>
-          </main>
+    </main>
     <include src="./partials/footer.html"></include>
-    <include src="./partials/book-room-modal-window.html" data-modal></include>
+    <include src="./partials/book-room-modal-window.html"></include>
     <include src="./partials/room-price-modal-window.html"></include>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/slider-hero.js"></script>
+    <script src="./js/modals-set.js"></script>
   </body>
 </html>

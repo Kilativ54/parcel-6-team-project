@@ -1,0 +1,101 @@
+<button type="button" data-popup-btn="book-table-modal" class="popup-link">
+  ЗАБРОНЮВАТИ СТОЛИК
+</button>
+
+<div data-popup-target="book-table-modal" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button type="button" class="popup__close close-popup">
+        <svg class="modal__icon" width="24" height="24">
+          <!-- <use href="../images/icons.svg#icon-close"></use> --></svg
+        >х
+      </button>
+      <h2 class="form-modal__title">Забронювати столик</h2>
+      <form name="form" class="form-modal">
+        <div class="form-modal-box">
+          <div class="form-modal__field">
+            <input
+              class="form-modal__input form-modal__input--padding"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Ваше ім’я"
+              required
+            />
+          </div>
+          <label for="user-name" class="form-modal__label"
+            >На кого забронювати столик?</label
+          >
+        </div>
+
+        <div class="form-modal-box">
+          <div class="flex-box inputs-wrap form-modal__field">
+            <input
+              type="text"
+              class="form-modal__input js-inputmask"
+              name="user-tel"
+              id="user-tel"
+              required
+            />
+          </div>
+          <label for="user-tel" class="form-modal__label">Номер телефону</label>
+        </div>
+
+        <div class="form-modal-box">
+          <div class="form-modal__group">
+            <div class="form-modal__wrap flex-box selects-wrap">
+              <select
+                name="select-people"
+                class="js-select form-modal__select"
+                id="select-people"
+                required
+              >
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="select-people" class="form-modal__label"
+            >Столик на яку кількість осіб?</label
+          >
+        </div>
+
+        <div class="form-modal-box">
+          <div class="form-modal__group">
+            <div class="form-modal__wrap flex-box selects-wrap">
+              <select
+                name="select-date"
+                class="js-select form-modal__select"
+                id="select-date"
+                required
+              >
+                <option value="1">Сьогодні</option>
+                <option value="2">Неділя</option>
+                <option value="3">Понеділок</option>
+                <option value="4">Вівторок</option>
+                <option value="5">Середа</option>
+                <option value="6">Четверг</option>
+                <option value="7">П'ятниця</option>
+                <option value="8">Субота</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="select-date" class="form-modal__label"
+            >На яку дату бронювати?</label
+          >
+        </div>
+      </form>
+      <button type="submit" class="modal__button button submit">
+        Оформити бронювання
+      </button>
+    </div>
+  </div>
+</div>

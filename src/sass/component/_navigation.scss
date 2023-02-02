@@ -1,0 +1,98 @@
+.nav {
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        margin-right: 73px;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 1023px) {
+                margin-right: 20px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+            }
+    }
+
+&__contact {
+    display: flex;
+    justify-content: center;
+}
+
+&__link {
+    margin-right: 36px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: $accentColor;
+
+    display: flex;
+    align-items: center;
+
+@media (min-width: 1023px) {
+        
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+@media (max-width: 1023px) {
+    margin-right: 12px;
+    
+
+}
+
+}
+
+&__tel-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 144px;
+    height: 40px;
+    border: 0.5 solid $accentColor;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+     @media (max-width: 1023px) {
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+        }
+}
+
+&__tel-icon {
+    fill: $accentColor;
+    margin-right: 10px;
+
+    
+}
+
+&__tel-number {
+    font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.21;
+        letter-spacing: 0.02em;
+        color: $whiteColor;
+        
+        @media (max-width: 1023px) {
+                       display: none;
+        
+                    }
+
+}
+
+
+
+}
+
