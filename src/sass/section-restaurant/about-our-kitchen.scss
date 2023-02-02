@@ -1,5 +1,14 @@
 .about-kitchen {
     background: $fonLemon;
+    padding-bottom: 72px;
+
+    @media (min-width: 1024px){
+        padding-bottom: 262px;
+    }
+
+    @media (min-width: 1280px) {
+        padding-bottom: 104px;
+    }
 }
 
 .kitchen-container {
@@ -8,6 +17,7 @@
     @media (min-width: 1024px) {
         width: 1024px;
         padding: 0 47px;
+        position: relative;
     }
 
     @media (min-width: 1280px) {
@@ -85,11 +95,12 @@
 
     @media (min-width: 1280px) {
         margin-right: 37px;
+        width: 518px;
     }
 
 }
 
-.restaurant-photo-top {
+.kitchen-photo-top {
     display: flex;
     margin-left: auto;
     background: #DADADA;
@@ -102,6 +113,7 @@
         width: 400px;
         margin-top: -260px;
         z-index: 10;
+        margin-bottom: 0;
     }
 
     @media (min-width: 1280px) {
@@ -114,6 +126,11 @@
 .kitchen-bottom-part {
     display: flex;
     align-items: center;
+    margin-bottom: 32px;
+    
+    @media (min-width: 1024px){
+        margin-bottom: 0;
+    }
 
 }
 
@@ -125,6 +142,7 @@
 
     @media (min-width: 1024px) {
         width: 350px;
+        margin-top: -32px;
     }
 
     @media (min-width: 1280px) {
@@ -150,5 +168,6 @@
         justify-content: center;
         align-items: center;
         margin-left: 48px;
+        
     }
 }
