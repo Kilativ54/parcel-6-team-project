@@ -160,8 +160,7 @@
 @media screen and (min-width: 1024px) {
   .form-price__wrap {
     display: flex;
-    -moz-column-gap: 16px;
-         column-gap: 16px;
+    column-gap: 16px;
   }
 }
 

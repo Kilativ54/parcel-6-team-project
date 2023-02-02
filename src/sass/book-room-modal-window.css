@@ -214,9 +214,7 @@
 }
 
 .form-room__select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   overflow: hidden;
 }
 
