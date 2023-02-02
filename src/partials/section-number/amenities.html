@@ -7,61 +7,68 @@
       consequat sunt nostrud amet.
     </p>
     <ul class="list listAmenities">
-      <li class="listAmenities__general">
+      <li class="listAmenities__item">
         <h3 class="listAmenities__title">Загальні</h3>
 
-        <p
-          class="listAmenities__description listAmenities__description-paragraph"
-        >
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+        <div class="listAmenities__descriptionBox">
+          <p
+            class="listAmenities__description listAmenities__description-paragraph"
+          >
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
 
-        <p class="listAmenities__description">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+          <p class="listAmenities__description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
       </li>
-      <li class="listAmenities__bathroom">
+      <li class="listAmenities__item">
         <h3 class="listAmenities__title">Ванна кімната</h3>
 
-        <p
-          class="listAmenities__description listAmenities__description-paragraph"
-        >
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+        <div class="listAmenities__descriptionBox">
+          <p
+            class="listAmenities__description listAmenities__description-paragraph"
+          >
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
 
-        <p class="listAmenities__description">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+          <p class="listAmenities__description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
       </li>
-      <li class="listAmenities__bedroom">
+      <li class="listAmenities__item">
         <h3 class="listAmenities__title">Спальня</h3>
         <p class="listAmenities__description">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint.
         </p>
       </li>
-      <li class="listAmenities__kitchen">
+      <li class="listAmenities__item">
         <h3 class="listAmenities__title">Кухня</h3>
-        <p
-          class="listAmenities__description listAmenities__description-paragraph"
-        >
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint.
-        </p>
-        <p class="listAmenities__description">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint.
-        </p>
+        <div class="listAmenities__descriptionBox">
+          <p
+            class="listAmenities__description listAmenities__description-paragraph"
+          >
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
+          </p>
+
+          <p class="listAmenities__description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
+          </p>
+        </div>
       </li>
-      <li class="listAmenities__media">
+      <li class="listAmenities__item">
         <h3 class="listAmenities__title">Медіа</h3>
         <p class="listAmenities__description">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -70,7 +77,11 @@
       </li>
     </ul>
     <div class="navAmenities">
-      <button class="navAmenities__Button" type="button">
+      <button
+        type="button"
+        class="navAmenities__Button popup-link"
+        data-popup-btn="book-room-modal"
+      >
         Оформити бронювання
       </button>
       <a class="link navAmenities__Link" href="./hotel.html"
