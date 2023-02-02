@@ -63,6 +63,7 @@
 }
 .details-hotel__title {
   margin: 0;
+  margin-bottom: 12px;
   font-family: 'FilmP3';
   font-style: normal;
   font-weight: 700;
@@ -80,6 +81,7 @@
   }
 }
 .details-hotel__hotel {
+  margin-bottom: 20px;
   text-align: right;
   font-family: 'Montserrat';
   font-style: normal;
@@ -99,6 +101,7 @@
   letter-spacing: 0.02em;
   width: 243px;
   color: #bababa;
+
   @media screen and (min-width: 1024px) {
     font-size: 16px;
     line-height: calc(19.5 / 16);
