@@ -219,6 +219,25 @@
 // Hotel-about-swiper
 
 // swiper-container
+.about-hotel__swiper-wrapper {
+  position: relative;
+  bottom: -500px;
+  right: -350px;
+
+  @media screen and (min-width: 1024px) {
+    position: relative;
+    bottom: -450px;
+    left: -100px;
+    transform: translate(-50% -50%);
+  }
+  @media screen and (min-width: 1280px) {
+    position: relative;
+    bottom: -400px;
+    left: -300px;
+    transform: translate(-50% -50%);
+  }
+}
+
 .hotel__box-shadow {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
@@ -242,6 +261,7 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   bottom: 0px;
   position: absolute;
+  outline: solid 20px pink;
 
   @media screen and (max-width: 1023px) {
     bottom: 0px;
