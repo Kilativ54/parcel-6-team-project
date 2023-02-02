@@ -102,12 +102,13 @@
     
 }
     
-.restaurant-photo-top{
+.restaurant-photo-top {
     display: flex;
     margin-left: auto;
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
+    width: 244px;
     
 
     @media (min-width: 1024px){
