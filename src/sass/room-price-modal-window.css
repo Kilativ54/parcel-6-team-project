@@ -160,6 +160,7 @@
   .form-price__wrap {
     display: flex;
     column-gap: 16px;
+  }
 }
 
 .price__button {

@@ -5,7 +5,7 @@
     
     height: 100%;
     width: 100%;
-    padding-bottom: 102px;
+    padding-bottom: 20px;
     @media (max-width:1023px) {      
          
         background-image:
@@ -28,7 +28,7 @@
 
         @media (min-width:1024px) {
             
-            padding-bottom: 64px;
+            padding-bottom: 15px;
             background-image:
                 linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
@@ -91,7 +91,7 @@
 
 .hero-homepage-title{
     font-family: 'FilmP3';
-    color: #FFFFFF;
+    color: $whiteColor;
     font-size:96px;
     font-weight: 700;
     line-height: 1.08;
@@ -117,7 +117,7 @@
 }
 
 .hero-homepage-subtitle{
-    color: #FFFFFF;
+    color: $whiteColor;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 16px;
@@ -139,7 +139,7 @@
 }
 
 .hero-homepage-text{
-    color: #FFFFFF;
+    color: $whiteColor;
     font-family: 'TimesNewRoman';
     font-weight: 700;
     font-size: 32px;
@@ -221,6 +221,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 58px;
     
         @media (min-width: 1024px) {
             display: flex;           
@@ -231,7 +232,7 @@
 
 
 .hero-homepage-button{
-    color: #F3C653;
+    color: $accentColor;
     font-family: 'Montserrat';    
     font-weight: 700;
     font-size: 16px;
@@ -247,7 +248,7 @@
         &:hover,
         &:focus {
                 background: #FFFFFF;
-                border: 2px solid #F3C653;
+                border: 2px solid $accentColor;
             }
     
     @media (max-width: 1023px){       
@@ -276,16 +277,18 @@
 }
 
 .social{
-    position: absolute;
+    
 
         @media (max-width: 1023px){
             bottom: -58px;
             left: 15px;
+            // position: absolute;
         }
 
                 @media (min-width: 1024px) and (max-width: 1279px){
                     left: 94px;
                     margin-top: 28px;
+                    // position: absolute;
                 }
 
                                 @media (min-width:1280px){
