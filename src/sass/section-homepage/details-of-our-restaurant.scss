@@ -11,7 +11,6 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
     max-width: 414px;
     height: 735px;
@@ -179,8 +178,11 @@
             font-weight: 700;
             line-height: 1.25;
 }
-
-
+.swiper__restourant--position{
+    position: relative;
+    top: 389px;
+        right: 623px;
+}
 .button__check-prices--margin{
     margin-bottom: 0;
 }
