@@ -5,7 +5,12 @@
     
     @media (min-width: 1024px) {
      position: relative;
+    padding-bottom: 32px;
     }
+
+        @media (min-width: 1280px) {
+          padding-bottom: 50px;
+        }
 }
 
 .restaurant-container{
@@ -91,7 +96,8 @@
     }
 
         @media (min-width: 1280px){
-            margin-right: 37px;
+          width: 518px;  
+          margin-right: 37px;
         }
     
 }
@@ -102,7 +108,7 @@
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    margin-bottom: 32px;
+    
 
     @media (min-width: 1024px){
         width: 400px;
@@ -122,6 +128,10 @@
     @media (min-width: 1024px) {
       margin-bottom: 262px; 
     }
+      
+    @media (min-width: 1024px){
+      margin-right: 102px;
+    }
   
 }
 
@@ -133,11 +143,13 @@
     
     
         @media (min-width: 1024px){
-            width: 350px;   
+            width: 350px; 
+            margin-top: -30px;  
         }
 
         @media (min-width: 1280px){
             width: 460px;
+            margin-top: -95px;
         }
 }
 
