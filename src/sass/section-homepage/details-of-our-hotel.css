@@ -13,6 +13,19 @@
   margin-right: 140px;
   margin-left: 32px;
 }
+@media screen and (min-width: 1024px) {
+  .details-hotel__info {
+    margin-right: 278px;
+    margin-left: 197px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-hotel__info {
+    margin-right: 338px;
+    margin-left: 347px;
+  }
+}
+
 .details-hotel__title {
   margin: 0;
   font-family: "FilmP3";
@@ -36,5 +49,87 @@
 }
 
 .details-hotel__text {
+<<<<<<< Updated upstream
   outline: solid cyan;
+=======
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  width: 243px;
+  color: #bababa;
+}
+@media screen and (min-width: 1024px) {
+  .details-hotel__text {
+    font-size: 16px;
+    line-height: 1.21875;
+    width: 549px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .details-hotel__text {
+    width: 595px;
+  }
+}
+
+.details-hotel__slider {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 32px;
+}
+
+.details-hotel__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button__reserve-room {
+  width: 236px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 14px 0;
+  color: #f3c653;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.button__reserve-room:hover, .button__reserve-room:focus {
+  background: #ffffff;
+  border: 2px solid #f3c653;
+}
+
+.button__check-prices {
+  width: 236px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 14px 0;
+  color: #f3c653;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.button__check-prices:hover, .button__check-prices:focus {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=details-of-our-hotel.css.map */

@@ -3,7 +3,9 @@
   width: 100%;
   height: 143px;
   padding-top: 17px;
-  background: rgba(0, 0, 0, 0.65);
+}
+.header--number {
+  z-index: 100;
 }
 @media (min-width: 1024px) {
   .header {
