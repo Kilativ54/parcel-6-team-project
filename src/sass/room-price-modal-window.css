@@ -6,7 +6,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(41, 48, 61, 0.2);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   top: 0;
   left: 0;
   opacity: 0;
@@ -159,7 +160,9 @@
 @media screen and (min-width: 1024px) {
   .form-price__wrap {
     display: flex;
-    column-gap: 16px;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
 }
 
 .price__button {

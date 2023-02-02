@@ -103,7 +103,7 @@
   margin-bottom: 40px;
 }
 
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .details-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@2x.jpg);
     background-size: cover;
@@ -146,4 +146,8 @@
   position: relative;
   top: 389px;
   right: 623px;
+}
+
+.button__check-prices--margin {
+  margin-bottom: 0;
 }/*# sourceMappingURL=details-of-our-restaurant.css.map */
