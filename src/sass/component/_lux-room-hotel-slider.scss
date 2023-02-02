@@ -1,0 +1,121 @@
+
+// slider for hotel-page adult for 3 room
+
+.adult-third__details {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.adult-third__swiper-container {
+    position: relative;
+
+    height: 194px;
+
+    @media screen and (min-width: $mobile) {
+        width: auto;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: 428px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 548px;
+        height: 254px;
+    }
+}
+
+.adult-third__swiper {
+    position: absolute;
+
+    @media screen and (max-width: 1023px) {
+        right: -15px;
+    }
+
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.adult-third__swiper-wrapper {
+    width: 284px;
+
+    @media screen and (min-width: $tablet) {
+        width: 428px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 548px;
+    }
+}
+
+.adult-third__swiper-slide {
+    max-width: 194px;
+    height: 194px;
+
+    @media screen and (min-width: $desktop) {
+        max-width: 254px;
+        height: 254px;
+    }
+
+    background-color: #dadada;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.adult-third__buttons {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media screen and (max-width: 1023px) {
+        margin-top: 72px;
+    }
+}
+
+.adult-third__swiper-arrows {
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+
+    @media screen and (min-width: $tablet) {
+        left: 0;
+        bottom: -64px;
+    }
+
+    display: flex;
+    gap: 33px;
+
+    @media screen and (min-width: $desktop) {
+        bottom: -70px;
+    }
+}
+
+.adult-third__button-prev,
+.adult-third__button-next {
+    position: static;
+    margin-top: 0;
+    width: 32px;
+    height: 32px;
+
+    .adult-third__swiper__icon {
+        color: #000;
+        min-width: 32px;
+        height: 32px;
+        display: block;
+
+        @media screen and (min-width: $desktop) {
+            min-width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.adult-third__swiper-container [class^='swiper-button-']::after {
+    content: '';
+}

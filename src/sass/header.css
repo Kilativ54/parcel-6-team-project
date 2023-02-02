@@ -5,7 +5,6 @@
   padding-top: 17px;
 }
 .header--number {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
   z-index: 100;
 }
 @media (min-width: 1024px) {
@@ -28,7 +27,4 @@
   .header__network {
     display: none;
   }
-}
-.header__address--number {
-  display: flex;
 }/*# sourceMappingURL=header.css.map */

@@ -2,26 +2,28 @@ $mobile: 414px;
 $tablet: 1024px;
 $desktop: 1280px;
 
-.kitchen__swiper-container {
+.details-restourant__swiper-container {
     position: relative;
     height: auto;
     width: 330px;
 
     @media screen and (min-width: $mobile) {
-
-        left: 69px;
+        width: 374px;
+        left: 562px;
+        bottom: 372px;
     }
 
     @media screen and (min-width: $tablet) {
-        width: 428px;
+        width: 662px;
         position: absolute;
         bottom: 0px;
         bottom: 96px;
-        left: 536px;
+        left: 636px;
     }
 
     @media screen and (min-width: $desktop) {
-        width: 530px;
+        width: 825px;
+        height: 270px;
         left: 647px;
         bottom: 119px;
     }
@@ -50,25 +52,25 @@ $desktop: 1280px;
 }
 
 // swiper-slide
-.kitchen__slide {
-    height: 245px;
+.detail-restaurant__slide {
+    //height: 270px;
     background-color: #dadada;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 
     @media screen and (max-width: $mobile) {
-        min-width: 245px;
-        height: 245px;
+        min-width: 274px;
+        height: 270px;
     }
 
     @media screen and (min-width: $tablet) {
-        max-width: 194px;
-        height: 194px;
+        max-width: 270px;
+        height: 270px;
     }
 
     @media screen and (min-width: $desktop) {
-        max-width: 245px;
-        height: 245px;
+        max-width: 270px;
+        height: 270px;
     }
 }
 

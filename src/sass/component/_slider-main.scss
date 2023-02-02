@@ -4,24 +4,28 @@
     position: relative;
     height: auto;
     width: 330px;
-
+    
     @media screen and (min-width: $mobile) {
 
-        left: 69px; 
+        left: 85px; 
+        margin-bottom: 32px;
     }
 
     @media screen and (min-width: $tablet) {
         width: 428px;
         position: absolute;
         bottom: 0px;
-        bottom: 96px;
+        right: 0;
         left: 536px;
+        margin-bottom: 96px;
+        
     }
 
     @media screen and (min-width: $desktop) {
         width: 548px;
-        left: 643px;
-        bottom: 119px;
+        left: 647px;
+        bottom: 0;
+        margin-left: 102px;
     }
 }
 
@@ -76,10 +80,11 @@
 
 .restaurant__swiper-arrows {
     position: absolute;
-    right: 15px;
+    right: 25px;
     display: flex;
     gap: 33px;
     bottom: -52px;
+    
 
     @media screen and (min-width: $tablet) {
         bottom: -68px;

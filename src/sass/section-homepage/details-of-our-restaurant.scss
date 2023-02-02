@@ -1,3 +1,7 @@
+$mobile: 414px;
+$tablet: 1024px;
+$desktop: 1280px;
+
 .details-restaurant {
 
     display: flex;
@@ -74,6 +78,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
     &__slider--style {}
@@ -113,15 +118,30 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 1.25;
-
+        text-align: left;
 
         color: #BABABA;
         margin-top: 8px;
+        margin-bottom: 40px;
+        //width: 610px;
+
+                        @media screen and (min-width: $mobile) {
+        width: 259px;
+        font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.02em;
+                        }
+            
+                        @media screen and (min-width: $tablet) {
+        width: 610px;
+                        }
+            
+                        @media screen and (min-width: $desktop) {
         width: 610px;
 
-        @media screen and (min-width: 1280px) {
-            max-width: 610px;
-        }
+                        }
+
     }
 
     // .details-restaurant__slider

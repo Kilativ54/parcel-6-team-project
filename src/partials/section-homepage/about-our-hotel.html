@@ -2,6 +2,7 @@
   <section class="about-hotel">
     <div class="about-hotel__info">
       <div class="about-hotel__info-wrapper">
+        <h2 class="visually-hidden">Про наш готель</h2>
         <h3 class="about-hotel__title-above">Amet minim mollit non</h3>
         <h2 class="about-hotel__title">mimiho</h2>
         <p class="about-hotel__description">
@@ -11,18 +12,26 @@
         </p>
       </div>
       <img
-        src="/src/images/about-our-hotel/about-hotel__room--m.jpg"
-        alt="about-hotel__room"
         class="about-hotel__image-room"
+        srcset="
+          /src/images/about-our-hotel/about-hotel__room--d@2x.jpg 2x,
+          /src/images/about-our-hotel/about-hotel__room--d.jpg    1x
+        "
+        src="/src/images/about-our-hotel/about-hotel__room--d.jpg"
+        alt="about-hotel__room"
         loading="lazy"
       />
     </div>
 
     <div class="about-hotel__lobby">
       <img
-        src="/src/images/about-our-hotel/about-hotel__lobby--m.jpg"
-        alt="about-hotel__lobby"
         class="about-hotel__image-lobby"
+        srcset="
+          /src/images/about-our-hotel/about-hotel__lobby--d@2x.jpg 2x,
+          /src/images/about-our-hotel/about-hotel__lobby--d.jpg    1x
+        "
+        src="/src/images/about-our-hotel/about-hotel__lobby--d.jpg"
+        alt="about-hotel__lobby"
         loading="lazy"
       />
       <p class="about-hotel__text">
@@ -32,6 +41,5 @@
       </p>
     </div>
 
-    <div class="about-hotel__slider">slider here</div>
   </section>
 </div>

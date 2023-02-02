@@ -219,7 +219,9 @@
 }
 
 .form-modal__select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   overflow: hidden;
 }
 
