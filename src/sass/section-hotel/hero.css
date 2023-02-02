@@ -1,6 +1,15 @@
+.hero-hotel {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+
 .hero-room-lux {
   background-color: #0e0c07;
   z-index: 1;
+}
 }
 
 .hero-room-lux__con {
@@ -123,6 +132,27 @@
     padding-bottom: 24px;
   }
 }
+
+@media (min-width: 1024px) {
+  .hero-hotel {
+    padding-bottom: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hotel-tablet-hero.jpg);
+  }
+}
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hotel-tablet-hero2x.jpg);
+  }
+}
+@media (min-width: 1280px) {
+  .hero-hotel {
+    padding-bottom: 65px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hotel-desktop-hero.jpg);
+  }
+}
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hotel-desktop-hero2x.jpg);
 @media screen and (min-width: 1280px) {
   .hero-room {
     padding-top: 566px;

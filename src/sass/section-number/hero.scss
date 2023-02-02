@@ -235,8 +235,9 @@
   }
   
   .wrap-soc {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    margin-bottom: 134px;
+    margin-left: 15px;
     @media screen and (min-width: 1024px) {
       margin-left: 40px;
     }
