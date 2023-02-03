@@ -4,20 +4,12 @@ $desktop: 1280px;
 
 .details-restaurant {
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: var(--fonLemon);
-
     background-repeat: no-repeat;
-    //background-position: 50% 50%;
-    text-align: center;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
 
-    max-width: 414px;
-    height: 735px;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)),
         url(../images/details-of-our-restaurant/details-of-our-restaurant-0-m@1x.jpg);
@@ -25,7 +17,7 @@ $desktop: 1280px;
 
     @media screen and (min-width: 1024px) {
         max-width: 1024px;
-        height: 620px;
+
         background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
             url(../images/details-of-our-restaurant/details-of-our-restaurant-0-t@1x.jpg);
@@ -33,26 +25,14 @@ $desktop: 1280px;
 
     @media screen and (min-width: 1280px) {
         max-width: 1280px;
-        height: 620px;
+
         background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
             url(../images/details-of-our-restaurant/details-of-our-restaurant-0-@1x.jpg);
     }
 
 
-    &__main {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding-left: 85px;
-        height: 620px;
-        height: auto;
 
-        @media screen and (max-width: 1023px) {
-            flex-direction: column-reverse;
-
-        }
-    }
 
 
 
@@ -66,7 +46,7 @@ $desktop: 1280px;
         display: flex;
         align-items: flex-end;
 
-        @media screen and (max-width: 1023px) {
+        @media screen and (max-width: 1024px) {
             padding-top: 80px;
             padding-bottom: 40px;
 
@@ -78,25 +58,35 @@ $desktop: 1280px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
+
     }
 
     &__slider--style {}
 
     // .details-restaurant__title
 
-    &__title {
-        font-family: FilmP3;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 1.07;
-        letter-spacing: 0.3em;
-
-        color: #fff;
-        margin-top: 46px;
-    }
-
+        &__title {
+            font-family: FilmP3;
+            font-style: normal;
+            color: #fff;
+            margin-top: 46px;
+    
+            @media screen and (min-width: $mobile) {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 43px;
+                letter-spacing: 0.3em;
+            }
+    
+            @media screen and (min-width: $tablet) {
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 1.07;
+                letter-spacing: 0.3em;
+            }
+    
+            @media screen and (min-width: $desktop) {}
+        }
     // .details-restaurant__restaurant
 
     &__restaurant {
@@ -123,24 +113,25 @@ $desktop: 1280px;
         color: #BABABA;
         margin-top: 8px;
         margin-bottom: 40px;
-        //width: 610px;
 
-                        @media screen and (min-width: $mobile) {
-        width: 259px;
-        font-weight: 600;
+
+        @media screen and (min-width: $mobile) {
+            width: 259px;
+            font-weight: 600;
             font-size: 12px;
             line-height: 15px;
             letter-spacing: 0.02em;
-                        }
-            
-                        @media screen and (min-width: $tablet) {
-        width: 610px;
-                        }
-            
-                        @media screen and (min-width: $desktop) {
-        width: 610px;
+            margin-bottom: 20px;
+        }
 
-                        }
+        @media screen and (min-width: $tablet) {
+            width: 610px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            width: 610px;
+
+        }
 
     }
 
@@ -167,6 +158,28 @@ $desktop: 1280px;
     }
 }
 
+        .details-restaurant__main {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-left: 85px;
+
+                @media screen and (max-width: $tablet) {
+     height: 735px;
+     flex-direction:column-reverse;
+                    }
+                
+                    @media screen and (min-width: $tablet) {
+                    height: 620px;
+                    }
+                
+                    @media screen and (min-width: $desktop) {
+                    height: 620px;
+                
+                    }
+        }
+
+
 .swiper-slide {
     height: 270px;
 }
@@ -182,27 +195,47 @@ $desktop: 1280px;
     gap: 30px;
     width: auto;
     height: auto;
-} 
-.buttons__style--transparency{
-        width: 236px;
-            text-align: center;
-            letter-spacing: .02em;
-            color: #f3c653;
-            background: rgba(0, 0, 0, 0.4);
-            border: 2px solid #fffdee;
-            border-radius: 25px;
-            padding: 14px 0;
-            font-family: Montserrat, sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 1.25;
 }
-.swiper__restourant--position{
+
+.buttons__style--transparency {
+    width: 236px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #f3c653;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #fffdee;
+    border-radius: 25px;
+    padding: 14px 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.swiper__restourant--position {
     position: relative;
     top: 389px;
-        right: 623px;
+    right: 623px;
 }
-.button__check-prices--margin{
+
+.button__reserv-view {
+    width: 236px;
+    color: #f3c653;
+    text-align: center;
+    letter-spacing: .02em;
+    cursor: pointer;
+    background-color: #0006;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    padding: 14px 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+    transition: background-color .25s cubic-bezier(.17, .67, .83, .67);
+
     margin-bottom: 0;
 }
