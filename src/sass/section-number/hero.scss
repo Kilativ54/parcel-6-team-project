@@ -212,6 +212,19 @@
     align-items: center;
     z-index: 2;
 
+    @media screen and (min-width: 1024px) {
+
+    }
+
+    @media screen and (min-width: 1024px) {
+
+    }
+
+    @media screen and (min-width: 1280px) {
+
+      
+    }
+  
     // position: absolute;
     // top: 95%;
     // left: 47px;
@@ -239,7 +252,8 @@
     margin-bottom: 134px;
     margin-left: 15px;
     @media screen and (min-width: 1024px) {
-      margin-left: 40px;
+      left: 342px;
+      top: 658px;
     }
     @media screen and (min-width: 1280px) {
       display: none;
@@ -279,9 +293,14 @@
       font-size: 12px;
       line-height: 1.25;
       letter-spacing: 0.01em;
+
+      border: 0.5px solid $accentColor;
+      border-radius: 2px;
   
       @media screen and (min-width: 1024px) {
-        font-size: 16px;
+        position: absolute;
+        bottom: 22px;
+        left: 47px;
       }
   
       color: #e5e5e5;
