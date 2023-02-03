@@ -6,6 +6,7 @@
     @media screen and (min-width: 1024px) {
         padding-top: 32px;
         background-color: #F0ECD6;
+        padding-bottom: 44px;
     }
 }
 
@@ -70,7 +71,7 @@
     @media screen and (min-width: 1024px) {
         order: 1;
         margin-right: 93px;
-        margin-bottom: 64px;
+        margin-bottom: 34px;
     }
 
     @media screen and (min-width: 1280px) {
@@ -118,7 +119,7 @@
         order: 2;
         margin-left: 511px;
         margin-right: 0px;
-        margin-top: -293px;
+        margin-top: -264px;
     }
 
     @media screen and (min-width: 1280px) {
@@ -330,9 +331,14 @@
     }
 
     @media screen and (min-width: 1280px) {
-        margin-bottom: 29px;
+        margin-bottom: 13px;
     }
 }
+.section-menu__button:hover,
+.section-menu__button:focus {
+    background: #fff;
+    border: 2px solid #f3c653;}
+
 
 .section-menu__button {
     cursor: pointer;
