@@ -1,13 +1,14 @@
 <div class="wrapper container">
   <section class="details-hotel">
-    <div class="details-hotel__info">
-      <h2 class="details-hotel__title">mimiho</h2>
-      <h3 class="details-hotel__hotel">Готель</h3>
-      <p class="details-hotel__text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit.
-      </p>
-    </div>
+    <div class="details-hotel__wrapper">
+      <div class="details-hotel__info">
+        <h2 class="details-hotel__title">mimiho</h2>
+        <h3 class="details-hotel__hotel">Готель</h3>
+        <p class="details-hotel__text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+      </div>
 
     <div class="swiper-container hotel-details__swiper-container">
       <div class="swiper hotel-details__swiper">
@@ -211,35 +212,35 @@
           </div>
         </div>
       </div>
-    </div>
-    <!--------------- Button js -------------->
-    <div class="swiper-arrows hotel-details__swiper-arrows">
-      <div class="hotel-details__swiper-button-prev">
-        <svg class="hotel-details__swiper__icon">
-          <use href="./images/icons.svg#icon-swiper_left_button_icon"></use>
-        </svg>
+      <!--------------- Button js -------------->
+      <div class="swiper-arrows hotel-details__swiper-arrows">
+        <div class="hotel-details__swiper-button-prev">
+          <svg class="hotel-details__swiper__icon">
+            <use href="./images/icons.svg#icon-swiper_left_button_icon"></use>
+          </svg>
+        </div>
+        <div class="hotel-details__swiper-button-next">
+          <svg class="hotel-details__swiper__icon">
+            <use href="./images/icons.svg#icon-swiper_right_button_icon"></use>
+          </svg>
+        </div>
       </div>
-      <div class="hotel-details__swiper-button-next">
-        <svg class="hotel-details__swiper__icon">
-          <use href="./images/icons.svg#icon-swiper_right_button_icon"></use>
-        </svg>
-      </div>
-    </div>
 
-    <div class="details-hotel__button-wrapper">
-      <a href="/src/number.html">
-        <button type="button" class="button button__reserve-room">
-          Забронювати номер
+      <div class="details-hotel__button-wrapper">
+        <a href="/src/number.html">
+          <button type="button" class="button button__reserve-room">
+            Забронювати номер
+          </button>
+        </a>
+
+        <button
+          type="button"
+          data-popup-btn="room-price-modal"
+          class="button button__check-prices popup-link"
+        >
+          Переглянути ціни
         </button>
-      </a>
-
-      <button
-        type="button"
-        data-popup-btn="room-price-modal"
-        class="button button__check-prices popup-link"
-      >
-        Переглянути ціни
-      </button>
+      </div>
     </div>
   </section>
 </div>
