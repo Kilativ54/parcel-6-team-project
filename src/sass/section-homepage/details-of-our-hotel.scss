@@ -25,6 +25,7 @@
       url('/src/images/details-our-hotel/details-hotel__bg--t.jpg');
     width: 100%;
     max-width: 1024px;
+    height: 620px;
     @media screen and (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
@@ -39,6 +40,7 @@
       url('/src/images/details-our-hotel/details-hotel__bg--d.jpg');
     width: 100%;
     max-width: 1280px;
+    height: 620px;
     @media screen and (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
@@ -47,6 +49,12 @@
         url('/src/images/details-our-hotel/details-hotel__bg--d@2x.jpg');
     }
   }
+}
+
+.details-hotel__wrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .details-hotel__info {
