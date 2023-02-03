@@ -1,30 +1,14 @@
 .wrapper {
   background-color: #fffdee;
-<<<<<<< Updated upstream
   outline: solid red;
   max-width: 414px;
-=======
-  padding: 15px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.about-hotel {
->>>>>>> Stashed changes
-  margin-left: auto;
-  margin-right: auto;
-}
-<<<<<<< Updated upstream
 @media screen and (min-width: 1124px) {
   .wrapper {
     max-width: 1124px;
     outline: solid yellow;
-=======
-@media screen and (min-width: 1024px) {
-  .about-hotel {
-    width: 1024px;
-    max-height: 1238px;
->>>>>>> Stashed changes
   }
 }
 @media screen and (min-width: 1280px) {
@@ -40,78 +24,25 @@
 }
 
 .about-hotel__info {
-<<<<<<< Updated upstream
   margin-left: auto;
   outline: 5px solid lime;
   text-align: end;
   width: 100%;
   max-width: 258px;
   margin-bottom: 28px;
-=======
-  margin-bottom: 32px;
->>>>>>> Stashed changes
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__info {
-<<<<<<< Updated upstream
     margin: 0;
     width: 100%;
     max-width: 419px;
-=======
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 46px;
-    margin: 0;
-    top: -44px;
->>>>>>> Stashed changes
   }
 }
 @media screen and (min-width: 1280px) {
   .about-hotel__info {
-<<<<<<< Updated upstream
     width: 100%;
     max-width: 488px;
   }
-=======
-    gap: 67px;
-  }
-}
-
-.about-hotel__info-wrapper {
-  display: block;
-  width: 258px;
-  margin-bottom: 28px;
-  margin-left: auto;
-  text-align: end;
-}
-@media screen and (min-width: 1024px) {
-  .about-hotel__info-wrapper {
-    margin: 0;
-    width: 419px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-hotel__info-wrapper {
-    width: 488px;
-  }
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
->>>>>>> Stashed changes
 }
 
 .about-hotel__title-above {
@@ -143,26 +74,27 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #494848;
-  margin-bottom: 16px;
-  text-align: right;
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__title {
     font-size: 64px;
     line-height: 1.078125;
-    margin: 0;
     margin-bottom: 24px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .about-hotel__title {
+    color: #828282;
+  }
+}
+
 .about-hotel__description {
   font-family: "montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
-  color: #7a7a7a;
-  text-align: left;
-  letter-spacing: 0.2em;
+  color: #5f5f5f;
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__description {
@@ -170,6 +102,12 @@
     line-height: 1.25;
   }
 }
+@media screen and (min-width: 1280px) {
+  .about-hotel__description {
+    color: #828282;
+  }
+}
+
 .about-hotel__text {
   font-family: "montserrat";
   font-style: normal;
@@ -178,7 +116,6 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #c79002;
-  width: 163px;
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__text {
@@ -187,44 +124,25 @@
     width: 312px;
   }
 }
-<<<<<<< Updated upstream
 
 .about-hotel__room {
   margin-bottom: 32px;
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__room {
-=======
-.about-hotel__image-room {
-  width: 244px;
-  margin-right: auto;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
-}
-@media screen and (min-width: 1024px) {
-  .about-hotel__image-room {
-    width: 400px;
-    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-    margin: 0;
->>>>>>> Stashed changes
     position: relative;
     top: -44px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-hotel__image-room {
-    max-width: 450px;
+    margin: 0;
   }
 }
 
 .about-hotel__lobby {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   gap: 20px;
+  flex-direction: row-reverse;
   margin-bottom: 32px;
 }
-<<<<<<< Updated upstream
 
 .about-hotel__image-room {
   width: 100%;
@@ -237,38 +155,33 @@
   .about-hotel__image-room {
     width: 400px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-=======
-@media screen and (min-width: 1024px) {
-  .about-hotel__lobby {
-    position: relative;
-    top: -58px;
-    right: 20px;
-    gap: 48px;
->>>>>>> Stashed changes
     margin: 0;
   }
 }
 @media screen and (min-width: 1280px) {
-  .about-hotel__lobby {
-    top: -112px;
-    gap: 45px;
+  .about-hotel__image-room {
+    width: 100%;
+    max-width: 450px;
   }
 }
 
 .about-hotel__image-lobby {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 @media screen and (min-width: 1124px) {
   .about-hotel__image-lobby {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
 }
 @media screen and (min-width: 1280px) {
   .about-hotel__image-lobby {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 }
 
