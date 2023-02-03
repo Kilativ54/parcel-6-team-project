@@ -69,15 +69,15 @@ function funcPopup() {
     }
 
     function bodyLock() {
-        const lockPaddingValue = window.innerWidth - body.offsetWidth + 'px';
+        const lockPaddingValue = window.innerWidth - body.offsetWidth;
 
         if (lockPadding.length > 0) {
             for (let index = 0; index < lockPadding.length; index++) {
                 const el = lockPadding[index];
-                el.style.paddingRight = scrollBarWidth + 'px';
+                el.style.paddingRight = scrollBarWidth;
             }
         }
-        body.style.paddingRight = scrollBarWidth + 'px';
+        body.style.paddingRight = scrollBarWidth;
         body.classList.add('lock');
 
         unlock = false;
