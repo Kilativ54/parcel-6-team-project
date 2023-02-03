@@ -13,7 +13,7 @@ img {
 .section-hotel {
     padding: 32px 0;
     width: 100%;
-    position: relative;
+    
     overflow: hidden;
 
     /* tablet */ 
@@ -37,17 +37,11 @@ img {
     padding: 0 15px;
     margin: 0 auto;
     width: 414px;
+    position: relative;
     /* table */
     @media (min-width:1024px){
             padding: 0 47px;
             width: 1024px;
-
-            &__fortwo {
-                margin: 0;
-                }
-            &__fortree {
-                margin-left: auto;
-                }
         }
         
 
@@ -55,21 +49,13 @@ img {
     @media (min-width:1280px) {
             padding: 0 85px;
             width: 1280px;
-            margin:0;
-            &__fortwo {
-                    margin: 0;
-                }
-            
-                &__fortree {
-                    margin-left: auto;
-                }
         }
 }
-.container-hotel__fortwo{
-        @media (min-width:1280px) {
-                margin: 0;
-        }
-}
+// .container-hotel__fortwo{
+//         @media (min-width:1280px) {
+//                 margin: 0;
+//         }
+// }
 .hotel-card__text {
     font-family: 'TimesNewRoman';
     font-style: normal;
@@ -99,7 +85,7 @@ img {
     @media (min-width:1024px) {
             font-size: 64px;
             line-height: 1.078;
-            margin-bottom: 62px;
+            margin-bottom: 72px;
             max-width: 202px;
         }
 }
@@ -119,9 +105,11 @@ img {
             font-size: 30px;
             line-height: 1.133;
             margin-bottom: 16px;
+            margin-top: 0;
         }
     /* desktop */
     @media (min-width:1280px) {
+            margin-top: 0;
             font-size: 36px;
             line-height: 1.139;
             margin-bottom: 24px;
@@ -162,16 +150,16 @@ img {
     /* table */
     @media (min-width:1024px){
         position: absolute;
-        top: -32px;
+        top: -94px;
         right: 11.72%;
         margin: 0;
     }
     /* desktop */
     @media (min-width:1280px) {
         position: absolute;
-        top: -33px;
-        right: 14.06%;
-        margin: 0;
+            top: -105px;
+            right: 14.5%;
+            margin: 0;
     }
 }
 
@@ -233,13 +221,13 @@ img {
     /* table */
     @media (min-width:1024px){
         position: absolute;
-        bottom: 145px;
+        bottom: 115px;
         right: 47px;
     }
     /* desktop */
     @media (min-width:1280px) {
         position: absolute;
-        bottom: 182px;
+        bottom: 142px;
         right: 85px;
     }
 
