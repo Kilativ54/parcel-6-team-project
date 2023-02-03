@@ -14,17 +14,20 @@ img {
   padding: 32px 0;
   width: 100%;
   position: relative;
+  overflow: hidden;
   /* tablet */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .section-hotel {
     padding: 62px 0 40px;
+    overflow: visible;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .section-hotel {
     padding: 72px 0 40px;
+    overflow: visible;
   }
 }
 .section-hotel--fortwo {
@@ -38,16 +41,35 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .container-hotel {
     padding: 0 47px;
     width: 1024px;
   }
+  .container-hotel__fortwo {
+    margin: 0;
+  }
+  .container-hotel__fortree {
+    margin-left: auto;
+  }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .container-hotel {
     padding: 0 85px;
     width: 1280px;
+    margin: 0;
+  }
+  .container-hotel__fortwo {
+    margin: 0;
+  }
+  .container-hotel__fortree {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-hotel__fortwo {
+    margin: 0;
   }
 }
 
@@ -61,7 +83,7 @@ img {
   margin-bottom: 8px;
   /* table/desktop */
 }
-@media (min-width: 415px) {
+@media (min-width: 1024px) {
   .hotel-card__text {
     font-size: 32px;
     line-height: 1.156;
@@ -80,7 +102,7 @@ img {
   margin-bottom: 32px;
   /* table/desktop */
 }
-@media (min-width: 415px) {
+@media (min-width: 1024px) {
   .hotel-card__title {
     font-size: 64px;
     line-height: 1.078;
@@ -101,14 +123,14 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .section-title {
     font-size: 30px;
     line-height: 1.133;
     margin-bottom: 16px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .section-title {
     font-size: 36px;
     line-height: 1.139;
@@ -130,7 +152,7 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .room-description {
     font-size: 16px;
     line-height: 1.25;
@@ -138,7 +160,7 @@ img {
     max-width: 439px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .room-description {
     max-width: 400px;
     font-size: 16px;
@@ -154,7 +176,7 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .room-img {
     position: absolute;
     top: -32px;
@@ -162,7 +184,7 @@ img {
     margin: 0;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .room-img {
     position: absolute;
     top: -33px;
@@ -182,13 +204,13 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .room-img__styles {
     max-width: 400px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .room-img__styles {
     max-width: 460px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
@@ -229,14 +251,14 @@ img {
   border-color: #F3C653;
   color: #F3C653;
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .buttons {
     position: absolute;
     bottom: 145px;
     right: 47px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .buttons {
     position: absolute;
     bottom: 182px;
@@ -255,7 +277,7 @@ img {
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .htlswiper-wrapper {
     transform: none;
     justify-content: start;
@@ -263,7 +285,7 @@ img {
     gap: 40px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .htlswiper-wrapper {
     transform: none;
     justify-content: start;
@@ -290,13 +312,13 @@ img {
   padding: 8px 1px 7px;
   border: none;
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .htlswiper-btns {
     margin-bottom: 0;
     margin-left: 330px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .htlswiper-btns {
     margin-bottom: 0;
     margin-left: 457px;
@@ -325,7 +347,7 @@ img {
   width: 100%;
   /* table/desktop */
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .htlswiper-img {
     max-width: 254px;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
