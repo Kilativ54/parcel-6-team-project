@@ -261,6 +261,7 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   bottom: 0px;
   position: absolute;
+  
   @media screen and (max-width: 1023px) {
     bottom: 0px;
     right: 15px;
@@ -296,16 +297,19 @@
     height: 245px;
   }
 }
-.hotel__swiper-arrows {
+.hotel__about-swiper-arrows {
   position: absolute;
   display: flex;
   gap: 33px;
-  bottom: -52px;
+  bottom: -10px;
+  left: -310;
   @media screen and (min-width: $tablet) {
     bottom: -68px;
+    left: 0px;
   }
   @media screen and (min-width: $desktop) {
-    bottom: -76px;
+    bottom: -48px;
+    left: 15px;
   }
 }
 .hotel__button-prev,
