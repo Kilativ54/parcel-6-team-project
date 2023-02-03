@@ -332,6 +332,9 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #F3C653;
+  transition-property: var(--links-buttons-text-color);
+  transition-duration: 240ms;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.2, 1);
 }
 @media screen and (min-width: 1024px) {
   .section-menu__button {
