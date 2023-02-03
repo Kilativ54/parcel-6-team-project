@@ -222,18 +222,18 @@
 .about-hotel__swiper-wrapper {
   position: relative;
   bottom: -500px;
-  right: -350px;
+  right: -330px;
 
   @media screen and (min-width: 1024px) {
     position: relative;
     bottom: -450px;
-    left: -100px;
+    left: -115px;
     transform: translate(-50% -50%);
   }
   @media screen and (min-width: 1280px) {
     position: relative;
     bottom: -400px;
-    left: -300px;
+    left: -240px;
     transform: translate(-50% -50%);
   }
 }
@@ -261,7 +261,7 @@
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   bottom: 0px;
   position: absolute;
-  
+
   @media screen and (max-width: 1023px) {
     bottom: 0px;
     right: 15px;
