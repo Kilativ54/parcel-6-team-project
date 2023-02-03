@@ -30,7 +30,7 @@ $desktop: 1280px;
 }
 
 // swiper
-.kitchen__swiper {
+.kitchen-swiper {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
   @media screen and (max-width: 1023px) {
@@ -74,7 +74,7 @@ $desktop: 1280px;
   }
 }
 
-.kitchen__swiper-arrows {
+.kitchen-swiper-arrows {
   position: absolute;
   right: 55px;
   display: flex;
@@ -91,14 +91,14 @@ $desktop: 1280px;
   }
 }
 
-.kitchen__swiper-button-prev,
-.kitchen__swiper-button-next {
+.kitchen-swiper-button-prev,
+.kitchen-swiper-button-next {
   position: static;
   width: 32px;
   height: 32px;
 }
 
-.kitchen__swiper-icon {
+.kitchen-swiper-icon {
   color: #000;
   width: 100%;
   height: 100%;
