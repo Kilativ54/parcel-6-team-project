@@ -1,3 +1,8 @@
+$mobile:414px;
+$tablet:1024px;
+$desktop:1280px;
+
+
 .wrapper {
 }
 .details-hotel {
@@ -313,24 +318,28 @@
   }
 }
 // -------------------foto-swiper--------------
-.hotel-details__swiper-slide {
+.hotel-details__swiper--slide {
   min-width: 270px;
   max-width: 270px;
-  height: 270px;
+  min-height: 270px;
+  margin-right: 0;
 }
-.hotel-details__swiper-img {
+
+.hotel-details__swiper--img {
   max-width: 270px;
   max-height: 270px;
+  min-height: 270px;
 }
-.hotel-details__swiper-slim-img {
+
+.hotel-details__swiper-slim--img {
   max-width: 162px;
   min-width: 162px;
-  height: 270px;
+  min-height: 270px;
 }
-.hotel-details__swiper-slim-slide {
+.hotel-details__swiper-slim--slide {
   max-width: 162px;
   min-width: 162px;
-  height: 270px;
+  min-height: 270px;
 }
 
 // -------------------btn-swiper------------------

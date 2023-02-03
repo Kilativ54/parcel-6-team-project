@@ -209,7 +209,7 @@
   padding-right: 8px;
 }
 
-.contacts-item.address {
+.contacts-item.addresss {
   border: 0.5px solid #f3c653;
   width: 260px;
   height: 76px;
@@ -217,7 +217,7 @@
   margin-bottom: 32px;
 }
 @media (min-width: 1024px) {
-  .contacts-item.address {
+  .contacts-item.addresss {
     margin-left: 0;
     margin-bottom: 0;
     width: 285px;

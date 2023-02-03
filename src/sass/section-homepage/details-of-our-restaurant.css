@@ -85,13 +85,28 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
+  text-align: left;
   color: #BABABA;
   margin-top: 8px;
-  width: 610px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 414px) {
+  .details-restaurant__text {
+    width: 259px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .details-restaurant__text {
+    width: 610px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .details-restaurant__text {
-    max-width: 610px;
+    width: 610px;
   }
 }
 .details-restaurant__slider {

@@ -1,25 +1,23 @@
-
 .about-restaurant{
     background: $fonLemon;
-    padding-bottom: 20px;
-    
-    @media (min-width: 1024px) {
-     position: relative;
-    padding-bottom: 32px;
-    }
+    padding-bottom: 72px;
 
-        @media (min-width: 1280px) {
-          padding-bottom: 50px;
-        }
+    @media (min-width: 1024px){
+        padding-bottom: 0;
+    }
+    
+    @media (min-width: 1280px) {
+    padding-bottom: 104px;
+    }
 }
 
 .restaurant-container{
     width: 414px;
   
-
     @media (min-width: 1024px){
         width: 1024px;
         padding: 0 47px;
+        position: relative;
     }
 
     @media (min-width: 1280px){
@@ -109,11 +107,13 @@
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     width: 244px;
+    margin-bottom: 32px;
     
 
     @media (min-width: 1024px){
         width: 400px;
         margin-top: -260px;
+        margin-bottom: 0;
     }
      @media (min-width: 1280px) {
         width: 460px;

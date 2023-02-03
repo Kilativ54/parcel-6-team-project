@@ -11,17 +11,20 @@ letter-spacing: 0.3em;
 text-transform: uppercase;
 
 color: $whiteColor;
-    }
 
 @media (max-width: 1023px) {
         margin-right: 52px;
 
     }
 
-        @media (min-width: 1024px) {
-            font-size: 40px;
-            line-height: 1.08;
-    
-        }
+    @media (min-width: 1024px) {
+        font-size: 40px;
+        line-height: 1.08;
+
+    }
+
+    }
+
+
 
 }

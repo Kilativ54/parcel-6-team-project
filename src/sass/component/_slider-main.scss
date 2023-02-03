@@ -13,14 +13,14 @@
     width: 428px;
     position: absolute;
     bottom: 0px;
-    bottom: 96px;
+    bottom: -154px;
     left: 536px;
   }
 
   @media screen and (min-width: $desktop) {
     width: 548px;
-    left: 643px;
-    bottom: 119px;
+    left: 675px;
+    bottom: -230px;
   }
 }
 
@@ -213,21 +213,21 @@
 @media screen and (min-width: $mobile) {
   .restaurant-detailes__swiper {
     position: relative;
-    left: 25px;
+    // left: 25px;
   }
 }
 
 @media screen and (min-width: $tablet) {
   .restaurant-detailes__swiper {
     position: relative;
-    left: 265px;
+    // left: 265px;
   }
 }
 
 @media screen and (min-width: $desktop) {
   .restaurant-detailes__swiper {
     position: relative;
-    left: 268px;
+    // left: 268px;
   }
 }
 
@@ -257,24 +257,25 @@
 .restaurant-detailes__swiper-slide {
   min-width: 270px;
   max-width: 270px;
-  height: 270px;
+  min-height: 270px;
 }
 
 .restaurant-detailes__swiper-img {
   max-width: 270px;
   max-height: 270px;
+  min-height: 270px;
 }
 
 .restaurant-detailes__swiper-slim-img {
   max-width: 162px;
   min-width: 162px;
-  height: 270px;
+  min-height: 270px;
 }
 
 .restaurant-detailes__swiper-slim-slide {
   max-width: 162px;
   min-width: 162px;
-  height: 270px;
+  min-height: 270px;
 }
 
 // -------------------btn-swiper------------------
