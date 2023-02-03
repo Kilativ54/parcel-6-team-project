@@ -1,7 +1,6 @@
-$mobile:414px;
-$tablet:1024px;
-$desktop:1280px;
-
+$mobile: 414px;
+$tablet: 1024px;
+$desktop: 1280px;
 
 .wrapper {
 }
@@ -13,7 +12,7 @@ $desktop:1280px;
   background-size: cover;
   width: 100%;
   max-width: 414px;
-  max-height: 735px;
+  height: 735px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('/src/images/details-our-hotel/details-hotel__bg--m.jpg');
@@ -60,6 +59,7 @@ $desktop:1280px;
   display: flex;
   justify-items: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .details-hotel__info {
@@ -138,6 +138,12 @@ $desktop:1280px;
   align-items: center;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1024px) {
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
 }
 
 .button__reserve-room {
