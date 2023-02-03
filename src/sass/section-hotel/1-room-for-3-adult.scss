@@ -40,16 +40,16 @@
     /* table */
     @media (min-width:1024px) {
         position: absolute;
-        top: -32px;
+        top: -94px;
         left: 11.72%;
         margin: 0;
     }
     /* desktop */
     @media (min-width:1280px) {
-            position: absolute;
-            top: -33px;
-            left: 14.06%;
-            margin: 0;
+        position: absolute;
+        top: -105px;
+        left: 14.5%;
+        margin: 0;
     }
 }
 
@@ -91,11 +91,5 @@
             left: 85px;
             right: 0;
             margin: 0;
-    }
-}
-
-.container-hotel__forthree {
-    @media (min-width:1280px) {
-        margin-left: auto;
     }
 }
