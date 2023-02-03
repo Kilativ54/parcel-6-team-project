@@ -185,9 +185,6 @@ img {
   flex-direction: column;
   gap: 16px;
   margin: 0 auto;
-  position: absolute;
-  bottom: 40px;
-  right: 73px;
 
   &__style {
     background: #000000;
@@ -217,6 +214,11 @@ img {
     }
   }
   /* table */
+}
+.btnPosition {
+  position: absolute;
+  bottom: 40px;
+  right: 73px;
   @media (min-width: 1024px) {
     position: absolute;
     bottom: 115px;
