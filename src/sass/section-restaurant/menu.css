@@ -1,19 +1,3 @@
-h3 {
-  font-family: "Times New Roman";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  color: #000000;
-  margin-bottom: 16px;
-}
-@media screen and (min-width: 1024px) {
-  h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
-
 .section-menu {
   padding-top: 32px;
   padding-bottom: 46px;
@@ -36,7 +20,6 @@ h3 {
 }
 @media screen and (min-width: 1024px) {
   .section-menu__header {
-    width: 318px;
     margin-top: 48px;
     margin-bottom: 40px;
   }
@@ -52,12 +35,34 @@ h3 {
   }
 }
 
+.section-menu__subheader {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__subheader {
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__subheader {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 .section-menu__hot-dishes-list {
   margin-bottom: 16px;
 }
 @media screen and (min-width: 1024px) {
   .section-menu__hot-dishes-list {
-    margin-right: 88px;
+    margin-right: auto;
     margin-bottom: 0px;
   }
 }
@@ -68,7 +73,14 @@ h3 {
 @media screen and (min-width: 1024px) {
   .section-menu__side-dishes-list {
     order: 1;
-    margin-right: 88px;
+    margin-right: 93px;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__side-dishes-list {
+    margin-right: 128px;
+    margin-bottom: 30px;
   }
 }
 
@@ -79,7 +91,6 @@ h3 {
   .section-menu__salads-list {
     height: 325px;
     margin-bottom: 0px;
-    flex-basis: 0;
   }
 }
 
@@ -89,6 +100,13 @@ h3 {
 @media screen and (min-width: 1024px) {
   .section-menu__desserts-list {
     order: 1;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__desserts-list {
+    margin-top: -57px;
   }
 }
 
@@ -98,7 +116,15 @@ h3 {
 @media screen and (min-width: 1024px) {
   .section-menu__drinks-list {
     order: 2;
-    margin-left: auto;
+    margin-left: 511px;
+    margin-right: 0px;
+    margin-top: -293px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__drinks-list {
+    margin-left: 619px;
+    margin-top: -263px;
   }
 }
 
@@ -110,12 +136,45 @@ h3 {
 .section-menu__box-item1 {
   display: block;
 }
+@media screen and (min-width: 1024px) {
+  .section-menu__box-item1 {
+    margin-right: 10px;
+  }
+}
+
+.section-menu__box-d {
+  display: flex;
+  margin-bottom: 11px;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__box-d {
+    display: flex;
+    height: 30px;
+    margin-bottom: 0px;
+  }
+}
 
 .section-menu__box-item2 {
   width: 140px;
   display: flex;
   margin-top: 17px;
-  margin-left: auto;
+  margin-left: 34px;
+}
+@media screen and (max-width: 413px) {
+  .section-menu__box-item2 {
+    margin-left: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__box-item2 {
+    width: auto;
+    margin-left: 38px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__box-item2 {
+    margin-left: 44px;
+  }
 }
 
 .section-menu__box-item2d {
@@ -124,12 +183,30 @@ h3 {
   margin-top: 3px;
   margin-left: auto;
 }
+@media screen and (min-width: 1024px) {
+  .section-menu__box-item2d {
+    width: auto;
+    margin-left: 39px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__box-item2d {
+    margin-left: 44px;
+  }
+}
 
 .section-menu__box-item2dr {
   width: 145px;
   display: flex;
   margin-top: 3px;
   margin-left: auto;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__box-item2dr {
+    width: 168px;
+    display: flex;
+    margin-left: 41px;
+  }
 }
 
 .section-menu__dish-description {
@@ -142,8 +219,14 @@ h3 {
   letter-spacing: 0.02em;
   color: #000000;
 }
+@media screen and (min-width: 1280px) {
+  .section-menu__dish-description {
+    width: 260px;
+  }
+}
 
 .section-menu__dish-weight {
+  display: flex;
   margin-right: auto;
   font-family: "Montserrat";
   font-style: normal;
@@ -152,6 +235,42 @@ h3 {
   line-height: 17px;
   letter-spacing: 0.02em;
   color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__dish-weight {
+    width: 48px;
+    height: 17px;
+    margin-right: 41px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__dish-weight {
+    margin-right: 50px;
+  }
+}
+
+.section-menu__dish-weightd {
+  display: flex;
+  margin-right: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__dish-weightd {
+    width: 53px;
+    height: 17px;
+    margin-right: 38px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__dish-weightd {
+    margin-right: auto;
+  }
 }
 
 .section-menu__dish-price {
@@ -162,6 +281,17 @@ h3 {
   line-height: 17px;
   letter-spacing: 0.02em;
   color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__dish-price {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__dish-price {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .section-menu__dish {
@@ -176,12 +306,18 @@ h3 {
   letter-spacing: 0.02em;
   color: #000000;
 }
+@media screen and (min-width: 1280px) {
+  .section-menu__dish {
+    width: 270px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 
 .section-menu__button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
   width: 236px;
   height: 48px;
   background: #000000;
@@ -195,4 +331,18 @@ h3 {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #F3C653;
+}
+@media screen and (min-width: 1024px) {
+  .section-menu__button {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-menu__button {
+    margin-bottom: 29px;
+  }
+}
+
+.section-menu__button {
+  cursor: pointer;
 }/*# sourceMappingURL=menu.css.map */

@@ -21,7 +21,7 @@
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .room-card--forthree {
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
     max-width: 400px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .room-card--forthree {
     max-width: 453px;
     display: flex;
@@ -42,7 +42,7 @@
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .room-img--forthree {
     position: absolute;
     top: -32px;
@@ -50,7 +50,7 @@
     margin: 0;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .room-img--forthree {
     position: absolute;
     top: -33px;
@@ -68,7 +68,7 @@
   transform: translateX(120px);
   /* table/dektop */
 }
-@media (min-width: 415px) {
+@media (min-width: 1024px) {
   .htlswiper-wrapper--forthree {
     transform: none;
     justify-content: end;
@@ -80,12 +80,12 @@
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1025px) {
   .htlswiper-btns--forthree {
     margin-right: 333px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .htlswiper-btns--forthree {
     margin-right: 452px;
   }
@@ -95,17 +95,23 @@
   /* table */
   /* desktop */
 }
-@media screen and (min-width: 415px) and (max-width: 1025px) {
+@media (min-width: 1024px) {
   .buttons--forthree {
     left: 47px;
     right: 0;
     margin: 0;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .buttons--forthree {
     left: 85px;
     right: 0;
     margin: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-hotel__forthree {
+    margin-left: auto;
   }
 }/*# sourceMappingURL=1-room-for-3-adult.css.map */

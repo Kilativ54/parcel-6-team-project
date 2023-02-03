@@ -52,10 +52,10 @@
 }
 .popup__close {
   position: absolute;
-  right: 16px;
-  top: 16px;
-  width: 24px;
-  height: 24px;
+  right: 5px;
+  top: 5px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,7 +160,8 @@
 @media screen and (min-width: 1024px) {
   .form-price__wrap {
     display: flex;
-    column-gap: 16px;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
   }
 }
 
