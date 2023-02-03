@@ -76,10 +76,10 @@ $desktop: 1280px;
 
 .kitchen-swiper-arrows {
   position: absolute;
-  right: 55px;
+  right: 15px;
   display: flex;
   gap: 33px;
-  bottom: -52px;
+  bottom: -62px;
 
   @media screen and (min-width: $tablet) and (max-width: 1279px) {
     bottom: -68px;
@@ -96,6 +96,13 @@ $desktop: 1280px;
   position: static;
   width: 32px;
   height: 32px;
+}
+
+.kitchen__slider-picture{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .kitchen-swiper-icon {
