@@ -65,7 +65,7 @@ const swiper5 = new Swiper('.restaurant-detailes__swiper', {
       // when window width is >= 480px
       1280: {
         slidesPerView: 2.6,
-        spaceBetween: 0,
+        spaceBetween: 34,
         width: 874,
       },
     },
