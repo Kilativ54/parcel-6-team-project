@@ -213,17 +213,19 @@ img {
       color: #f3c653;
     }
   }
-  /* table */
 }
 .btnPosition {
   position: absolute;
   bottom: 40px;
   right: 73px;
+
+  /* table */
   @media (min-width: 1024px) {
     position: absolute;
     bottom: 115px;
     right: 47px;
   }
+
   /* desktop */
   @media (min-width: 1280px) {
     position: absolute;
